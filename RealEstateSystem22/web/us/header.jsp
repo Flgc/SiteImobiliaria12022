@@ -13,7 +13,7 @@
     <meta name="keywords" content="Azenta, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FLGC Imob | Vendas e Aluguel</title>
+    <title>Azenta | Template</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -48,50 +48,52 @@
         </div>
         <div class="language-bar">
             <div class="language-option">
-                <img src="img/flag-br.png" alt="">
-                <span>Brasil</span>
+                <img src="img/flag.png" alt="">
+                <span>English</span>
                 <i class="fa fa-angle-down"></i>
                 <div class="flag-dropdown">
                     <ul>
-                        <li><a href="#">Brasil</a></li>
-                        <li><a href="#">Inglish</a></li>
-                        <li><a href="#">Spanish</a></li>                        
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Spanish</a></li>
+                        <li><a href="#">Brazil</a></li>
                     </ul>
                 </div>
             </div>
             <div class="property-btn">
-                <a href="property.jsp" class="property-sub">Ver Imóveis</a>
+                <a href="#" class="property-sub">Submit Property</a>
             </div>
         </div>
         <nav class="main-menu">
             <ul>
                 <li><a href="./index.jsp  ">Home</a></li>
-                <li><a href="./agents.jsp  ">Corretores</a></li>
-                <li><a href="./about-us.jsp  ">Sobre</a></li>
-                <li><a href="./contact.jsp  ">Contatos</a></li>
+                <li><a href="./property.jsp  ">Property</a></li>
+                <li><a href="./about-us.jsp  ">About</a></li>
+                <li><a href="./blog.jsp  ">News</a></li>
+                <li><a href="./property-details.jsp  ">Pages</a></li>
+                <li><a href="./contact.jsp  ">Contact</a></li>
             </ul>
         </nav>
         <div class="nav-logo-right">
             <ul>
                 <li>
-                    <i class="fa fa-whatsapp"></i>
+                    <i class="icon_phone"></i>
                     <div class="info-text">
-                        <span>Telefone:</span>
-                        <p>(+21)97162-4270</p>
+                        <span>Phone:</span>
+                        <p>(+12) 345 6789</p>
                     </div>
                 </li>
                 <li>
                     <i class="icon_map"></i>
                     <div class="info-text">
-                        <span>Endereço:</span>
-                        <p>Santa Cruz<span>RJ</span></p>
+                        <span>Address:</span>
+                        <p>16 Creek Ave, <span>NY</span></p>
                     </div>
                 </li>
                 <li>
                     <i class="icon_mail"></i>
                     <div class="info-text">
                         <span>Email:</span>
-                        <p>ml@fabiotecnico1.biz</p>
+                        <p>Info.cololib@gmail.com</p>
                     </div>
                 </li>
             </ul>
@@ -108,27 +110,29 @@
                         <nav class="main-menu">
                             <ul>
                                 <li class="active"><a href="./index.jsp  ">Home</a></li>
-                                <li><a href="./agents.jsp  ">Corretores</a></li>                                
-                                <li><a href="./about-us.jsp  ">Sobre</a></li>                                                                
-                                <li><a href="./contact.jsp  ">Contatos</a></li>
+                                <li><a href="./property.jsp  ">Property</a></li>
+                                <li><a href="./about-us.jsp  ">Agets</a></li>
+                                <li><a href="./blog.jsp  ">News</a></li>
+                                <li><a href="./property-details.jsp  ">Pages</a></li>
+                                <li><a href="./contact.jsp  ">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-lg-5">
                         <div class="top-right">
                             <div class="language-option">
-                                <img src="img/flag-br.png" alt="">
-                                <span>Brasil</span>
+                                <img src="img/flag.png" alt="">
+                                <span>English</span>
                                 <i class="fa fa-angle-down"></i>
                                 <div class="flag-dropdown">
                                     <ul>
-                                        <li><a href="#">Brasil</a></li>                                        
                                         <li><a href="#">English</a></li>
-                                        <li><a href="#">Spanish</a></li>                                        
+                                        <li><a href="#">Spanish</a></li>
+                                        <li><a href="#">Brazil</a></li>                                        
                                     </ul>
                                 </div>
                             </div>
-                            <a href="property.jsp" class="property-sub">Ver Imóveis</a>                            
+                            <a href="#" class="property-sub">Submit Property</a>
                         </div>
                     </div>
                 </div>
@@ -146,24 +150,24 @@
                         <div class="nav-logo-right">
                             <ul>
                                 <li>
-                                    <i class="fa fa-whatsapp"></i>
+                                    <i class="icon_phone"></i>
                                     <div class="info-text">
-                                        <span>Telefone:</span>
-                                        <p>(+21)97162-4270</p>
+                                        <span>Phone:</span>
+                                        <p>(+12) 345 6789</p>
                                     </div>
                                 </li>
                                 <li>
                                     <i class="icon_map"></i>
                                     <div class="info-text">
-                                    <span>Endereço:</span>
-                                    <p>Santa Cruz <span>RJ</span></p>                                        
+                                        <span>Address:</span>
+                                        <p>16 Creek Ave, <span>NY</span></p>
                                     </div>
                                 </li>
                                 <li>
                                     <i class="icon_mail"></i>
                                     <div class="info-text">
                                         <span>Email:</span>
-                                        <p>ml@fabiotecnico1.biz</p>
+                                        <p>Info.cololib@gmail.com</p>
                                     </div>
                                 </li>
                             </ul>
