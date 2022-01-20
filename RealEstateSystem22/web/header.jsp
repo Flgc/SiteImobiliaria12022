@@ -36,6 +36,8 @@
     <div id="preloder">
         <div class="loader"></div>
     </div>
+    
+    <!-- Mobile  -->
 
     <!-- Offcanvas Menu Section Begin -->
     <div class="offcanvas-menu-overlay"></div>
@@ -78,27 +80,31 @@
                     <div class="info-text">
                         <span>Telefone:</span>
                         <p>(+21)97162-4270</p>
+                        <br>
                     </div>
-                </li>
-                <li>
-                    <i class="icon_map"></i>
-                    <div class="info-text">
-                        <span>Endereço:</span>
-                        <p>Santa Cruz<span>RJ</span></p>
-                    </div>
-                </li>
-                <li>
                     <i class="icon_mail"></i>
                     <div class="info-text">
                         <span>Email:</span>
                         <p>ml@fabiotecnico1.biz</p>
-                    </div>
+                        <br>
+                    </div>                    
+                    <i class="icon_map"></i>
+                    <div class="info-text">
+                        <span>Endereço:</span>
+                        <p>Santa Cruz <span>RJ</span></p>                                        
+                    </div>                                        
+                </li>
+                <li>
+
+
                 </li>
             </ul>
         </div>
     </div>
     <!-- Offcanvas Menu Section End -->
-
+    
+    <!-- Desktop  -->
+    
     <!-- Header Section Begin -->
     <header class="header-section">
         <div class="top-nav">
@@ -141,7 +147,7 @@
                         <div class="logo">
                             <a href="./index.jsp  "><img src="img/logo.png" alt=""></a>
                         </div>
-                    </div>
+                    </div>                    
                     <div class="col-lg-9">
                         <div class="nav-logo-right">
                             <ul>
