@@ -3,23 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Azenta Template">
-    <meta name="keywords" content="Azenta, unica, creative, html">
+    <meta name="description" content="Aler Template">
+    <meta name="keywords" content="Aler, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Azenta | Template</title>
+    <title>Aler | Template</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
@@ -32,140 +32,90 @@
         <div class="loader"></div>
     </div>
 
-    <!-- Offcanvas Menu Section Begin -->
+    <!-- Offcanvas Menu Wrapper Begin -->
     <div class="offcanvas-menu-overlay"></div>
-    <div class="canvas-open">
-        <i class="icon_menu"></i>
-    </div>
     <div class="offcanvas-menu-wrapper">
         <div class="canvas-close">
-            <i class="icon_close"></i>
+            <span class="icon_close"></span>
         </div>
-        <div class="language-bar">
-            <div class="language-option">
-                <img src="img/flag.png" alt="">
-                <span>English</span>
-                <i class="fa fa-angle-down"></i>
-                <div class="flag-dropdown">
-                    <ul>
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">Germany</a></li>
-                        <li><a href="#">China</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="property-btn">
-                <a href="#" class="property-sub">Submit Property</a>
-            </div>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="img/logo.png" alt="">
+            </a>
         </div>
-        <nav class="main-menu">
+        <div id="mobile-menu-wrap"></div>
+        <div class="om-widget">
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./property.html">Property</a></li>
-                <li><a href="./about-us.html">Agets</a></li>
-                <li><a href="./blog.html">News</a></li>
-                <li><a href="./property-details.html">Pages</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><i class="icon_mail_alt"></i> Aler.support@gmail.com</li>
+                <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
             </ul>
-        </nav>
-        <div class="nav-logo-right">
-            <ul>
-                <li>
-                    <i class="icon_phone"></i>
-                    <div class="info-text">
-                        <span>Phone:</span>
-                        <p>(+12) 345 6789</p>
-                    </div>
-                </li>
-                <li>
-                    <i class="icon_map"></i>
-                    <div class="info-text">
-                        <span>Address:</span>
-                        <p>16 Creek Ave, <span>NY</span></p>
-                    </div>
-                </li>
-                <li>
-                    <i class="icon_mail"></i>
-                    <div class="info-text">
-                        <span>Email:</span>
-                        <p>Info.cololib@gmail.com</p>
-                    </div>
-                </li>
-            </ul>
+            <a href="#" class="hw-btn">Submit property</a>
+        </div>
+        <div class="om-social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube-play"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
         </div>
     </div>
-    <!-- Offcanvas Menu Section End -->
+    <!-- Offcanvas Menu Wrapper End -->
 
     <!-- Header Section Begin -->
-    <header class="header-section header-normal">
-        <div class="top-nav">
+    <header class="header-section">
+        <div class="hs-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7">
-                        <nav class="main-menu">
-                            <ul>
-                                <li><a href="./index.html">Home</a></li>
-                                <li><a href="#">Property</a></li>
-                                <li><a href="#">Agets</a></li>
-                                <li><a href="./blog.html">News</a></li>
-                                <li><a href="#">Pages</a></li>
-                                <li class="active"><a href="./contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="top-right">
-                            <div class="language-option">
-                                <img src="img/flag.png" alt="">
-                                <span>English</span>
-                                <i class="fa fa-angle-down"></i>
-                                <div class="flag-dropdown">
-                                    <ul>
-                                        <li><a href="#">English</a></li>
-                                        <li><a href="#">Germany</a></li>
-                                        <li><a href="#">China</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a href="#" class="property-sub">Submit Property</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="nav-logo">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-2">
                         <div class="logo">
                             <a href="./index.html"><img src="img/logo.png" alt=""></a>
                         </div>
                     </div>
-                    <div class="col-lg-9">
-                        <div class="nav-logo-right">
+                    <div class="col-lg-10">
+                        <div class="ht-widget">
                             <ul>
-                                <li>
-                                    <i class="icon_phone"></i>
-                                    <div class="info-text">
-                                        <span>Phone:</span>
-                                        <p>(+12) 345 6789</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="icon_map"></i>
-                                    <div class="info-text">
-                                        <span>Address:</span>
-                                        <p>16 Creek Ave, <span>NY</span></p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="icon_mail"></i>
-                                    <div class="info-text">
-                                        <span>Email:</span>
-                                        <p>Info.cololib@gmail.com</p>
-                                    </div>
-                                </li>
+                                <li><i class="icon_mail_alt"></i> Aler.support@gmail.com</li>
+                                <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
                             </ul>
+                            <a href="#" class="hw-btn">Submit property</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas-open">
+                    <span class="icon_menu"></span>
+                </div>
+            </div>
+        </div>
+        <div class="hs-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <nav class="nav-menu">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="#">Properties</a>
+                                    <ul class="dropdown">
+                                        <li><a href="./property.html">Property Grid</a></li>
+                                        <li><a href="./profile.html">Property List</a></li>
+                                        <li><a href="./property-details.html">Property Detail</a></li>
+                                        <li><a href="./property-comparison.html">Property Comperison</a></li>
+                                        <li><a href="./property-submit.html">Property Submit</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./agents.html">Agents</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./blog.html">Blog</a></li>
+                                <li class="active"><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="hn-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
                         </div>
                     </div>
                 </div>
@@ -175,14 +125,14 @@
     <!-- Header End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section contact-page">
+    <section class="breadcrumb-section spad set-bg" data-setbg="img/breadcrumb-contact-bg.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text">
-                        <h2>Contact Us</h2>
-                        <div class="breadcrumb-option">
-                            <a href="#"><i class="fa fa-home"></i> Home</a>
+                        <h4>Contact Us</h4>
+                        <div class="bt-option">
+                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
                             <span>Contact</span>
                         </div>
                     </div>
@@ -190,149 +140,144 @@
             </div>
         </div>
     </section>
-    <!-- Breadcrumb Section Begin -->
+    <!-- Breadcrumb Section End -->
 
-    <!-- Contact Section Begin -->
-    <section class="contact-section">
-        <div class="container-fluid">
+    <!-- Contact Form Section Begin -->
+    <section class="contact-form-section spad">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="contact-map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.5524090066037!2d-71.10245469994108!3d42.47980730490846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3748250c43a43%3A0xe1b9879a5e9b6657!2sWinter%20Street%20Public%20Parking%20Lot!5e0!3m2!1sen!2sbd!4v1577299251173!5m2!1sen!2sbd"
-                            height="700" style="border:0;" allowfullscreen=""></iframe>
-                        <div class="map-inside">
-                            <i class="icon_pin"></i>
-                            <div class="inside-widget">
-                                <h4>New York</h4>
-                                <ul>
-                                    <li>Phone: +12-345-6789</li>
-                                    <li>Add: 16 Creek Ave. Farmingdale, NY</li>
-                                </ul>
-                            </div>
+                <div class="col-lg-12">
+                    <div class="cf-content">
+                        <div class="cc-title">
+                            <h4>Contact form</h4>
+                            <p>Duis voluptatum. Id vis consequat consetetur dissentiet, ceteros commune perp <br />etua
+                                mei et. Simul viderer facilisis egimus tractatos splendi.</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-7 offset-lg-1">
-                            <div class="contact-text">
-                                <div class="section-title">
-                                    <span>Contact</span>
-                                    <h2>Get In Touch</h2>
-                                </div>
-                                <form action="#" class="contact-form">
-                                    <input type="text" placeholder="Name">
-                                    <input type="text" placeholder="Email">
-                                    <input type="text" placeholder="Website">
-                                    <textarea placeholder="Messages"></textarea>
-                                    <button type="submit" class="site-btn">Send Message</button>
-                                </form>
+                        <form action="#" class="cc-form">
+                            <div class="group-input">
+                                <input type="text" placeholder="Name">
+                                <input type="text" placeholder="Email">
+                                <input type="text" placeholder="Website">
                             </div>
-                        </div>
+                            <textarea placeholder="Comment"></textarea>
+                            <button type="submit" class="site-btn">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Contact Section End -->
+    <!-- Contact Form Section End -->
 
-    <!-- Partner Carousel Section Begin -->
-    <div class="partner-section contact-partner">
+    <!-- Contact Section Begin -->
+    <section class="contact-section">
         <div class="container">
-            <div class="partner-carousel owl-carousel">
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-1.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-2.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-3.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-4.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-5.png" alt="">
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Partner Carousel Section End -->
-
-    <!-- Footer Section Begin -->
-    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
-        <div class="container">
-            <div class="footer-text">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="footer-logo">
-                            <div class="logo">
-                                <a href="#"><img src="img/footer-logo.png" alt=""></a>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <div class="ci-item">
+                            <div class="ci-icon">
+                                <i class="fa fa-map-marker"></i>
                             </div>
-                            <p>Subscribe our newsletter gor get notification about new updates.</p>
-                            <form action="#" class="newslatter-form">
-                                <input type="text" placeholder="Enter your email...">
-                                <button type="submit"><i class="fa fa-location-arrow"></i></button>
-                            </form>
+                            <div class="ci-text">
+                                <h5>Address</h5>
+                                <p>160 Pennsylvania Ave NW, Washington, Castle, PA 16101-5161</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 offset-lg-1">
-                        <div class="footer-widget">
-                            <h4>Property City</h4>
-                            <ul>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Florida</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">New York</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Washington</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Los Angeles</a></li>
-                            </ul>
-                            <ul>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">St Louis</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Jacksonville</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">San Jose</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">San Diego</a></li>
-                            </ul>
+                        <div class="ci-item">
+                            <div class="ci-icon">
+                                <i class="fa fa-mobile"></i>
+                            </div>
+                            <div class="ci-text">
+                                <h5>Phone</h5>
+                                <ul>
+                                    <li>125-711-811</li>
+                                    <li>125-668-886</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="footer-widget">
-                            <h4>Social</h4>
-                            <ul class="social">
-                                <li><i class="ti-facebook"></i> <a href="#">Facebook</a></li>
-                                <li><i class="ti-instagram"></i> <a href="#">Instagram</a></li>
-                                <li><i class="ti-twitter-alt"></i> <a href="#">Twitter</a></li>
-                                <li><i class="ti-google"></i> <a href="#">Google+</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="footer-widget">
-                            <h4>Contact Us</h4>
-                            <ul class="contact-option">
-                                <li><i class="fa fa-map-marker"></i> 16 Creek Ave. Farming, NY</li>
-                                <li><i class="fa fa-phone"></i> (+88) 666 121 4321</li>
-                                <li><i class="fa fa-envelope"></i> info.colorlib@gmail.com</li>
-                                <li><i class="fa fa-clock-o"></i> Mon - Sat, 08 AM - 06 PM</li>
-                            </ul>
+                        <div class="ci-item">
+                            <div class="ci-icon">
+                                <i class="fa fa-headphones"></i>
+                            </div>
+                            <div class="ci-text">
+                                <h5>Support</h5>
+                                <p>Support.aler@gmail.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="cs-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d735515.5813275519!2d-80.41163541934742!3d43.93644386501528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882a55bbf3de23d7%3A0x3ada5af229b47375!2sMono%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1583262687289!5m2!1sen!2sbd"
+                height="450" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+        <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="fs-about">
+                        <div class="fs-logo">
+                            <a href="#">
+                                <img src="img/f-logo.png" alt="">
+                            </a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua ut aliquip ex ea</p>
+                        <div class="fs-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Help</h5>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Contact Support</a></li>
+                            <li><a href="#">Knowledgebase</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Links</h5>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Create Property</a></li>
+                            <li><a href="#">My Properties</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="fs-widget">
+                        <h5>Newsletter</h5>
+                        <p>Deserunt mollit anim id est laborum.</p>
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Email">
+                            <button type="submit" class="site-btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
             <div class="copyright-text">
-                <p><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></p>
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
         </div>
     </footer>
@@ -342,10 +287,13 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.richtext.min.js"></script>
+    <script src="js/image-uploader.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

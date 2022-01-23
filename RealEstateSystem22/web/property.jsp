@@ -1,292 +1,430 @@
-<%-- 
-    Document   : header
-    Created on : 20 de jan de 2022, 19:03:00
-    Author     : fabio
---%>
+<!DOCTYPE html>
+<html lang="zxx">
 
-<jsp:include page="header.jsp" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Aler Template">
+    <meta name="keywords" content="Aler, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aler | Template</title>
 
-    <!-- Map Section Begin -->
-    <div class="map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.5524090066037!2d-71.10245469994108!3d42.47980730490846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3748250c43a43%3A0xe1b9879a5e9b6657!2sWinter%20Street%20Public%20Parking%20Lot!5e0!3m2!1sen!2sbd!4v1577299251173!5m2!1sen!2sbd"
-            height="500" style="border:0;" allowfullscreen=""></iframe>
-        <div class="icon-list">
-            <div class="icon icon-1">
-                1
-            </div>
-            <div class="icon icon-2">
-                2
-            </div>
-            <div class="icon icon-3">
-                3
-            </div>
-            <div class="icon icon-4">
-                4
-            </div>
-            <div class="icon icon-5">
-                5
-            </div>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Wrapper Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="canvas-close">
+            <span class="icon_close"></span>
+        </div>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="img/logo.png" alt="">
+            </a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="om-widget">
+            <ul>
+                <li><i class="icon_mail_alt"></i> Aler.support@gmail.com</li>
+                <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
+            </ul>
+            <a href="#" class="hw-btn">Submit property</a>
+        </div>
+        <div class="om-social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube-play"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
         </div>
     </div>
-    <!-- Map Section End -->
+    <!-- Offcanvas Menu Wrapper End -->
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="hs-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="ht-widget">
+                            <ul>
+                                <li><i class="icon_mail_alt"></i> Aler.support@gmail.com</li>
+                                <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
+                            </ul>
+                            <a href="#" class="hw-btn">Submit property</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas-open">
+                    <span class="icon_menu"></span>
+                </div>
+            </div>
+        </div>
+        <div class="hs-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <nav class="nav-menu">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li class="active"><a href="#">Properties</a>
+                                    <ul class="dropdown">
+                                        <li><a href="./property.html">Property Grid</a></li>
+                                        <li><a href="./profile.html">Property List</a></li>
+                                        <li><a href="./property-details.html">Property Detail</a></li>
+                                        <li><a href="./property-comparison.html">Property Comperison</a></li>
+                                        <li><a href="./property-submit.html">Property Submit</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./agents.html">Agents</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./blog.html">Blog</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="hn-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-section spad set-bg" data-setbg="img/breadcrumb-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h4>Property Grid</h4>
+                        <div class="bt-option">
+                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                            <span>Property</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
 
     <!-- Property Section Begin -->
     <section class="property-section spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
-                    <div class="property-sidebar">
-                        <h4>Search Property</h4>
-                        <form action="#" class="sidebar-search">
-                            <div class="sidebar-btn">
-                                <div class="bt-item">
-                                    <input type="radio" name="s-type" id="st-buy" checked>
-                                    <label for="st-buy">Buy</label>
-                                </div>
-                                <div class="bt-item">
-                                    <input type="radio" name="s-type" id="st-rent">
-                                    <label for="st-rent">Rent</label>
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h4>PROPERTY Grid</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="property-item">
+                        <div class="pi-pic set-bg" data-setbg="img/property/property-1.jpg">
+                            <div class="label">For rent</div>
+                        </div>
+                        <div class="pi-text">
+                            <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                            <div class="pt-price">$ 289.0<span>/month</span></div>
+                            <h5><a href="#">Home in Merrick Way</a></h5>
+                            <p><span class="icon_pin_alt"></span> 3 Middle Winchendon Rd, Rindge, NH 03461</p>
+                            <ul>
+                                <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                <li><i class="fa fa-bathtub"></i> 03</li>
+                                <li><i class="fa fa-bed"></i> 05</li>
+                                <li><i class="fa fa-automobile"></i> 01</li>
+                            </ul>
+                            <div class="pi-agent">
+                                <div class="pa-item">
+                                    <div class="pa-info">
+                                        <img src="img/property/posted-by/pb-1.jpg" alt="">
+                                        <h6>Ashton Kutcher</h6>
+                                    </div>
+                                    <div class="pa-text">
+                                        123-455-688
+                                    </div>
                                 </div>
                             </div>
-                            <select>
-                                <option value="">Locations</option>
-                            </select>
-                            <select>
-                                <option value="">Status</option>
-                            </select>
-                            <select>
-                                <option value="">No of Bedroom</option>
-                            </select>
-                            <select>
-                                <option value="">No of Bathrooms</option>
-                            </select>
-                            <select>
-                                <option value="">No of Guest</option>
-                            </select>
-                            <div class="room-size-range">
-                                <div class="price-text">
-                                    <label for="roomsizeRangeP">Size:</label>
-                                    <input type="text" id="roomsizeRangeP" readonly>
-                                </div>
-                                <div id="roomsize-range-P" class="slider"></div>
-                            </div>
-                            <div class="price-range-wrap">
-                                <div class="price-text">
-                                    <label for="priceRangeP">Price:</label>
-                                    <input type="text" id="priceRangeP" readonly>
-                                </div>
-                                <div id="price-range-P" class="slider"></div>
-                            </div>
-                            <button type="submit" class="search-btn">Search Property</button>
-                        </form>
-                        <div class="best-agents">
-                            <h4>Best Agents</h4>
-                            <a href="#" class="ba-item">
-                                <div class="ba-pic">
-                                    <img src="img/properties/best-agent-1.jpg" alt="">
-                                </div>
-                                <div class="ba-text">
-                                    <h5>Lester Bradley</h5>
-                                    <span>Company Agents</span>
-                                    <p class="property-items">6 property </p>
-                                </div>
-                            </a>
-                            <a href="#" class="ba-item">
-                                <div class="ba-pic">
-                                    <img src="img/properties/best-agent-2.jpg" alt="">
-                                </div>
-                                <div class="ba-text">
-                                    <h5>Janie Blair</h5>
-                                    <span>Company Agents</span>
-                                    <p class="property-items">6 property </p>
-                                </div>
-                            </a>
-                            <a href="#" class="ba-item">
-                                <div class="ba-pic">
-                                    <img src="img/properties/best-agent-3.jpg" alt="">
-                                </div>
-                                <div class="ba-text">
-                                    <h5>Sophia Cole</h5>
-                                    <span>Marketing & Ceo</span>
-                                    <p class="property-items">6 property </p>
-                                </div>
-                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9">
-                    <h4 class="property-title">Property</h4>
-                    <div class="property-list">
-                        <div class="single-property-item">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="property-pic">
-                                        <img src="img/properties/property-1.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="property-text">
-                                        <div class="s-text">For Sale</div>
-                                        <h5 class="r-title">Villa 9721 Glen Creek</h5>
-                                        <div class="room-price">
-                                            <span>Start From:</span>
-                                            <h5>$3.000.000</h5>
-                                        </div>
-                                        <div class="properties-location"><i class="icon_pin"></i> 9721 Glen Creek Ave.
-                                            Ballston Spa, NY</div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore.</p>
-                                        <ul class="room-features">
-                                            <li>
-                                                <i class="fa fa-arrows"></i>
-                                                <p>5201 sqft</p>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-bed"></i>
-                                                <p>8 Bed Room</p>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-bath"></i>
-                                                <p>7 Baths Bed</p>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-car"></i>
-                                                <p>1 Garage</p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="property-item">
+                        <div class="pi-pic set-bg" data-setbg="img/property/property-2.jpg">
+                            <div class="label c-red">For rent</div>
                         </div>
-                        <div class="single-property-item">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="property-pic">
-                                        <img src="img/properties/property-2.jpg" alt="">
+                        <div class="pi-text">
+                            <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                            <div class="pt-price">$ 289.0</div>
+                            <h5><a href="#">Unimont Aurum</a></h5>
+                            <p><span class="icon_pin_alt"></span> Gut No.102, Opp. HP Petrol Pump, Karjat</p>
+                            <ul>
+                                <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                <li><i class="fa fa-bathtub"></i> 03</li>
+                                <li><i class="fa fa-bed"></i> 05</li>
+                                <li><i class="fa fa-automobile"></i> 01</li>
+                            </ul>
+                            <div class="pi-agent">
+                                <div class="pa-item">
+                                    <div class="pa-info">
+                                        <img src="img/property/posted-by/pb-1.jpg" alt="">
+                                        <h6>Ashton Kutcher</h6>
                                     </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="property-text">
-                                        <div class="s-text">For Sale</div>
-                                        <h5 class="r-title">Villa 9721 Glen Creek</h5>
-                                        <div class="room-price">
-                                            <span>Start From:</span>
-                                            <h5>$3.000.000</h5>
-                                        </div>
-                                        <div class="properties-location"><i class="icon_pin"></i> 9721 Glen Creek Ave.
-                                            Ballston Spa, NY</div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore.</p>
-                                        <ul class="room-features">
-                                            <li>
-                                                <i class="fa fa-arrows"></i>
-                                                <p>5201 sqft</p>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-bed"></i>
-                                                <p>8 Bed Room</p>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-bath"></i>
-                                                <p>7 Baths Bed</p>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-car"></i>
-                                                <p>1 Garage</p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-property-item">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="property-pic">
-                                        <img src="img/properties/property-3.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="property-text">
-                                        <div class="s-text">For Sale</div>
-                                        <h5 class="r-title">Villa 9721 Glen Creek</h5>
-                                        <div class="room-price">
-                                            <span>Start From:</span>
-                                            <h5>$3.000.000</h5>
-                                        </div>
-                                        <div class="properties-location"><i class="icon_pin"></i> 9721 Glen Creek Ave.
-                                            Ballston Spa, NY</div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore.</p>
-                                        <ul class="room-features">
-                                            <li>
-                                                <i class="fa fa-arrows"></i>
-                                                <p>5201 sqft</p>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-bed"></i>
-                                                <p>8 Bed Room</p>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-bath"></i>
-                                                <p>7 Baths Bed</p>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-car"></i>
-                                                <p>1 Garage</p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-property-item">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="property-pic">
-                                        <img src="img/properties/property-4.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="property-text">
-                                        <div class="s-text">For Sale</div>
-                                        <h5 class="r-title">Villa 9721 Glen Creek</h5>
-                                        <div class="room-price">
-                                            <span>Start From:</span>
-                                            <h5>$3.000.000</h5>
-                                        </div>
-                                        <div class="properties-location"><i class="icon_pin"></i> 9721 Glen Creek Ave.
-                                            Ballston Spa, NY</div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore.</p>
-                                        <ul class="room-features">
-                                            <li>
-                                                <i class="fa fa-arrows"></i>
-                                                <p>5201 sqft</p>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-bed"></i>
-                                                <p>8 Bed Room</p>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-bath"></i>
-                                                <p>7 Baths Bed</p>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-car"></i>
-                                                <p>1 Garage</p>
-                                            </li>
-                                        </ul>
+                                    <div class="pa-text">
+                                        123-455-688
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="property-pagination">
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="property-item">
+                        <div class="pi-pic set-bg" data-setbg="img/property/property-2.jpg">
+                            <div class="label c-red">For rent</div>
+                        </div>
+                        <div class="pi-text">
+                            <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                            <div class="pt-price">$ 289.0</div>
+                            <h5><a href="#">Vrindavan Flora</a></h5>
+                            <p><span class="icon_pin_alt"></span> No. 15, 16, 17-1A And 17-2, Rasayani, Rasayani</p>
+                            <ul>
+                                <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                <li><i class="fa fa-bathtub"></i> 03</li>
+                                <li><i class="fa fa-bed"></i> 05</li>
+                                <li><i class="fa fa-automobile"></i> 01</li>
+                            </ul>
+                            <div class="pi-agent">
+                                <div class="pa-item">
+                                    <div class="pa-info">
+                                        <img src="img/property/posted-by/pb-1.jpg" alt="">
+                                        <h6>Ashton Kutcher</h6>
+                                    </div>
+                                    <div class="pa-text">
+                                        123-455-688
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="property-item">
+                        <div class="pi-pic set-bg" data-setbg="img/property/property-4.jpg">
+                            <div class="label c-red">For rent</div>
+                        </div>
+                        <div class="pi-text">
+                            <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                            <div class="pt-price">$ 289.0</div>
+                            <h5><a href="#">Shramik Vaibhav</a></h5>
+                            <p><span class="icon_pin_alt"></span> 12 Pt at Shedung, Panvel, Raigarh, Navi Mumbai</p>
+                            <ul>
+                                <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                <li><i class="fa fa-bathtub"></i> 03</li>
+                                <li><i class="fa fa-bed"></i> 05</li>
+                                <li><i class="fa fa-automobile"></i> 01</li>
+                            </ul>
+                            <div class="pi-agent">
+                                <div class="pa-item">
+                                    <div class="pa-info">
+                                        <img src="img/property/posted-by/pb-1.jpg" alt="">
+                                        <h6>Ashton Kutcher</h6>
+                                    </div>
+                                    <div class="pa-text">
+                                        123-455-688
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="property-item">
+                        <div class="pi-pic set-bg" data-setbg="img/property/property-5.jpg">
+                            <div class="label c-magenta">For rent</div>
+                        </div>
+                        <div class="pi-text">
+                            <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                            <div class="pt-price">$ 289.0</div>
+                            <h5><a href="#">Poddar Wondercity</a></h5>
+                            <p><span class="icon_pin_alt"></span> Badlapur East, Beyond Thane</p>
+                            <ul>
+                                <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                <li><i class="fa fa-bathtub"></i> 03</li>
+                                <li><i class="fa fa-bed"></i> 05</li>
+                                <li><i class="fa fa-automobile"></i> 01</li>
+                            </ul>
+                            <div class="pi-agent">
+                                <div class="pa-item">
+                                    <div class="pa-info">
+                                        <img src="img/property/posted-by/pb-1.jpg" alt="">
+                                        <h6>Ashton Kutcher</h6>
+                                    </div>
+                                    <div class="pa-text">
+                                        123-455-688
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="property-item">
+                        <div class="pi-pic set-bg" data-setbg="img/property/property-6.jpg">
+                            <div class="label">For rent</div>
+                        </div>
+                        <div class="pi-text">
+                            <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                            <div class="pt-price">$ 289.0<span>/month</span></div>
+                            <h5><a href="#">GoldCrest Residency</a></h5>
+                            <p><span class="icon_pin_alt"></span> No.7, Sector- 11, Ghansoli, Mumbai, Navi Mumbai</p>
+                            <ul>
+                                <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                <li><i class="fa fa-bathtub"></i> 03</li>
+                                <li><i class="fa fa-bed"></i> 05</li>
+                                <li><i class="fa fa-automobile"></i> 01</li>
+                            </ul>
+                            <div class="pi-agent">
+                                <div class="pa-item">
+                                    <div class="pa-info">
+                                        <img src="img/property/posted-by/pb-1.jpg" alt="">
+                                        <h6>Ashton Kutcher</h6>
+                                    </div>
+                                    <div class="pa-text">
+                                        123-455-688
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="property-item">
+                        <div class="pi-pic set-bg" data-setbg="img/property/property-7.jpg">
+                            <div class="label c-red">For rent</div>
+                        </div>
+                        <div class="pi-text">
+                            <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                            <div class="pt-price">$ 289.0</div>
+                            <h5><a href="#">Shramik Vaibhav</a></h5>
+                            <p><span class="icon_pin_alt"></span> 12 Pt at Shedung, Panvel, Raigarh, Navi Mumbai</p>
+                            <ul>
+                                <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                <li><i class="fa fa-bathtub"></i> 03</li>
+                                <li><i class="fa fa-bed"></i> 05</li>
+                                <li><i class="fa fa-automobile"></i> 01</li>
+                            </ul>
+                            <div class="pi-agent">
+                                <div class="pa-item">
+                                    <div class="pa-info">
+                                        <img src="img/property/posted-by/pb-1.jpg" alt="">
+                                        <h6>Ashton Kutcher</h6>
+                                    </div>
+                                    <div class="pa-text">
+                                        123-455-688
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="property-item">
+                        <div class="pi-pic set-bg" data-setbg="img/property/property-8.jpg">
+                            <div class="label c-magenta">For rent</div>
+                        </div>
+                        <div class="pi-text">
+                            <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                            <div class="pt-price">$ 289.0</div>
+                            <h5><a href="#">Poddar Wondercity</a></h5>
+                            <p><span class="icon_pin_alt"></span> Badlapur East, Beyond Thane</p>
+                            <ul>
+                                <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                <li><i class="fa fa-bathtub"></i> 03</li>
+                                <li><i class="fa fa-bed"></i> 05</li>
+                                <li><i class="fa fa-automobile"></i> 01</li>
+                            </ul>
+                            <div class="pi-agent">
+                                <div class="pa-item">
+                                    <div class="pa-info">
+                                        <img src="img/property/posted-by/pb-1.jpg" alt="">
+                                        <h6>Ashton Kutcher</h6>
+                                    </div>
+                                    <div class="pa-text">
+                                        123-455-688
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="property-item">
+                        <div class="pi-pic set-bg" data-setbg="img/property/property-9.jpg">
+                            <div class="label">For rent</div>
+                        </div>
+                        <div class="pi-text">
+                            <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                            <div class="pt-price">$ 289.0<span>/month</span></div>
+                            <h5><a href="#">GoldCrest Residency</a></h5>
+                            <p><span class="icon_pin_alt"></span> No.7, Sector- 11, Ghansoli, Mumbai, Navi Mumbai</p>
+                            <ul>
+                                <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                <li><i class="fa fa-bathtub"></i> 03</li>
+                                <li><i class="fa fa-bed"></i> 05</li>
+                                <li><i class="fa fa-automobile"></i> 01</li>
+                            </ul>
+                            <div class="pi-agent">
+                                <div class="pa-item">
+                                    <div class="pa-info">
+                                        <img src="img/property/posted-by/pb-1.jpg" alt="">
+                                        <h6>Ashton Kutcher</h6>
+                                    </div>
+                                    <div class="pa-text">
+                                        123-455-688
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="loadmore-btn">
+                        <a href="#">Load more</a>
                     </div>
                 </div>
             </div>
@@ -294,102 +432,67 @@
     </section>
     <!-- Property Section End -->
 
-    <!-- Partner Carousel Section Begin -->
-    <div class="partner-section">
+        <!-- Footer Section Begin -->
+    <footer class="footer-section">
         <div class="container">
-            <div class="partner-carousel owl-carousel">
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-1.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-2.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-3.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-4.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-5.png" alt="">
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Partner Carousel Section End -->
-
-    <!-- Footer Section Begin -->
-    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
-        <div class="container">
-            <div class="footer-text">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="footer-logo">
-                            <div class="logo">
-                                <a href="#"><img src="img/footer-logo.png" alt=""></a>
-                            </div>
-                            <p>Subscribe our newsletter gor get notification about new updates.</p>
-                            <form action="#" class="newslatter-form">
-                                <input type="text" placeholder="Enter your email...">
-                                <button type="submit"><i class="fa fa-location-arrow"></i></button>
-                            </form>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="fs-about">
+                        <div class="fs-logo">
+                            <a href="#">
+                                <img src="img/f-logo.png" alt="">
+                            </a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua ut aliquip ex ea</p>
+                        <div class="fs-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-3 offset-lg-1">
-                        <div class="footer-widget">
-                            <h4>Property City</h4>
-                            <ul>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Florida</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">New York</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Washington</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Los Angeles</a></li>
-                            </ul>
-                            <ul>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">St Louis</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Jacksonville</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">San Jose</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">San Diego</a></li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Help</h5>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Contact Support</a></li>
+                            <li><a href="#">Knowledgebase</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
                     </div>
-                    <div class="col-lg-2">
-                        <div class="footer-widget">
-                            <h4>Social</h4>
-                            <ul class="social">
-                                <li><i class="ti-facebook"></i> <a href="#">Facebook</a></li>
-                                <li><i class="ti-instagram"></i> <a href="#">Instagram</a></li>
-                                <li><i class="ti-twitter-alt"></i> <a href="#">Twitter</a></li>
-                                <li><i class="ti-google"></i> <a href="#">Google+</a></li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Links</h5>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Create Property</a></li>
+                            <li><a href="#">My Properties</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="footer-widget">
-                            <h4>Contact Us</h4>
-                            <ul class="contact-option">
-                                <li><i class="fa fa-map-marker"></i> 16 Creek Ave. Farming, NY</li>
-                                <li><i class="fa fa-phone"></i> (+88) 666 121 4321</li>
-                                <li><i class="fa fa-envelope"></i> info.colorlib@gmail.com</li>
-                                <li><i class="fa fa-clock-o"></i> Mon - Sat, 08 AM - 06 PM</li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="fs-widget">
+                        <h5>Newsletter</h5>
+                        <p>Deserunt mollit anim id est laborum.</p>
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Email">
+                            <button type="submit" class="site-btn">Subscribe</button>
+                        </form>
                     </div>
                 </div>
             </div>
             <div class="copyright-text">
-                <p><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></p>
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
         </div>
     </footer>
@@ -399,10 +502,13 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.richtext.min.js"></script>
+    <script src="js/image-uploader.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

@@ -3,23 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Azenta Template">
-    <meta name="keywords" content="Azenta, unica, creative, html">
+    <meta name="description" content="Aler Template">
+    <meta name="keywords" content="Aler, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Azenta | Template</title>
+    <title>Aler | Template</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
@@ -32,140 +31,90 @@
         <div class="loader"></div>
     </div>
 
-    <!-- Offcanvas Menu Section Begin -->
+    <!-- Offcanvas Menu Wrapper Begin -->
     <div class="offcanvas-menu-overlay"></div>
-    <div class="canvas-open">
-        <i class="icon_menu"></i>
-    </div>
     <div class="offcanvas-menu-wrapper">
         <div class="canvas-close">
-            <i class="icon_close"></i>
+            <span class="icon_close"></span>
         </div>
-        <div class="language-bar">
-            <div class="language-option">
-                <img src="img/flag.png" alt="">
-                <span>English</span>
-                <i class="fa fa-angle-down"></i>
-                <div class="flag-dropdown">
-                    <ul>
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">Germany</a></li>
-                        <li><a href="#">China</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="property-btn">
-                <a href="#" class="property-sub">Submit Property</a>
-            </div>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="img/logo.png" alt="">
+            </a>
         </div>
-        <nav class="main-menu">
+        <div id="mobile-menu-wrap"></div>
+        <div class="om-widget">
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./property.html">Property</a></li>
-                <li><a href="./about-us.html">Agets</a></li>
-                <li><a href="./blog.html">News</a></li>
-                <li><a href="./property-details.html">Pages</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><i class="icon_mail_alt"></i> Aler.support@gmail.com</li>
+                <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
             </ul>
-        </nav>
-        <div class="nav-logo-right">
-            <ul>
-                <li>
-                    <i class="icon_phone"></i>
-                    <div class="info-text">
-                        <span>Phone:</span>
-                        <p>(+12) 345 6789</p>
-                    </div>
-                </li>
-                <li>
-                    <i class="icon_map"></i>
-                    <div class="info-text">
-                        <span>Address:</span>
-                        <p>16 Creek Ave, <span>NY</span></p>
-                    </div>
-                </li>
-                <li>
-                    <i class="icon_mail"></i>
-                    <div class="info-text">
-                        <span>Email:</span>
-                        <p>Info.cololib@gmail.com</p>
-                    </div>
-                </li>
-            </ul>
+            <a href="#" class="hw-btn">Submit property</a>
+        </div>
+        <div class="om-social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube-play"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
         </div>
     </div>
-    <!-- Offcanvas Menu Section End -->
+    <!-- Offcanvas Menu Wrapper End -->
 
     <!-- Header Section Begin -->
     <header class="header-section">
-        <div class="top-nav">
+        <div class="hs-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7">
-                        <nav class="main-menu">
-                            <ul>
-                                <li><a href="./index.html">Home</a></li>
-                                <li class="active"><a href="./property.html">Property</a></li>
-                                <li><a href="./about-us.html">Agets</a></li>
-                                <li><a href="./blog.html">News</a></li>
-                                <li><a href="./property-details.html">Pages</a></li>
-                                <li><a href="./contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="top-right">
-                            <div class="language-option">
-                                <img src="img/flag.png" alt="">
-                                <span>English</span>
-                                <i class="fa fa-angle-down"></i>
-                                <div class="flag-dropdown">
-                                    <ul>
-                                        <li><a href="#">English</a></li>
-                                        <li><a href="#">Germany</a></li>
-                                        <li><a href="#">China</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a href="#" class="property-sub">Submit Property</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="nav-logo">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-2">
                         <div class="logo">
                             <a href="./index.html"><img src="img/logo.png" alt=""></a>
                         </div>
                     </div>
-                    <div class="col-lg-9">
-                        <div class="nav-logo-right">
+                    <div class="col-lg-10">
+                        <div class="ht-widget">
                             <ul>
-                                <li>
-                                    <i class="icon_phone"></i>
-                                    <div class="info-text">
-                                        <span>Phone:</span>
-                                        <p>(+12) 345 6789</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="icon_map"></i>
-                                    <div class="info-text">
-                                        <span>Address:</span>
-                                        <p>16 Creek Ave, <span>NY</span></p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="icon_mail"></i>
-                                    <div class="info-text">
-                                        <span>Email:</span>
-                                        <p>Info.cololib@gmail.com</p>
-                                    </div>
-                                </li>
+                                <li><i class="icon_mail_alt"></i> Aler.support@gmail.com</li>
+                                <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
                             </ul>
+                            <a href="#" class="hw-btn">Submit property</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas-open">
+                    <span class="icon_menu"></span>
+                </div>
+            </div>
+        </div>
+        <div class="hs-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <nav class="nav-menu">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li class="active"><a href="#">Properties</a>
+                                    <ul class="dropdown">
+                                        <li><a href="./property.html">Property Grid</a></li>
+                                        <li><a href="./profile.html">Property List</a></li>
+                                        <li><a href="./property-details.html">Property Detail</a></li>
+                                        <li><a href="./property-comparison.html">Property Comperison</a></li>
+                                        <li><a href="./property-submit.html">Property Submit</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./agents.html">Agents</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./blog.html">Blog</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="hn-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
                         </div>
                     </div>
                 </div>
@@ -174,328 +123,450 @@
     </header>
     <!-- Header End -->
 
-    <!-- Property Details Hero Section Begin -->
-    <section class="pd-hero-section set-bg" data-setbg="img/properties/product-content-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="pd-hero-text">
-                        <p class="room-location"><i class="icon_pin"></i> 9721 Glen Creek Ave. Ballston Spa, NY</p>
-                        <h2>Villa 9721 Glen Creek</h2>
-                        <div class="room-price">
-                            <span>Start Form:</span>
-                            <p>$3.000.000</p>
+    <!-- Property Details Section Begin -->
+    <section class="property-details-section">
+        <div class="property-pic-slider owl-carousel">
+            <div class="ps-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-12 p-0">
+                                    <div class="ps-item-inner large-item set-bg" data-setbg="img/property/slider/ps-1.jpg"></div>
+                                </div>
+                            </div>
                         </div>
-                        <ul class="room-features">
-                            <li>
-                                <i class="fa fa-arrows"></i>
-                                <p>5201 sqft</p>
-                            </li>
-                            <li>
-                                <i class="fa fa-bed"></i>
-                                <p>8 Bed Room</p>
-                            </li>
-                            <li>
-                                <i class="fa fa-bath"></i>
-                                <p>7 Baths Bed</p>
-                            </li>
-                            <li>
-                                <i class="fa fa-car"></i>
-                                <p>1 Garage</p>
-                            </li>
-                        </ul>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-sm-6 p-0">
+                                    <div class="ps-item-inner set-bg" data-setbg="img/property/slider/ps-2.jpg"></div>
+                                </div>
+                                <div class="col-sm-6 p-0">
+                                    <div class="ps-item-inner set-bg" data-setbg="img/property/slider/ps-2.jpg"></div>
+                                </div>
+                                <div class="col-sm-6 p-0">
+                                    <div class="ps-item-inner set-bg" data-setbg="img/property/slider/ps-4.jpg"></div>
+                                </div>
+                                <div class="col-sm-6 p-0">
+                                    <div class="ps-item-inner set-bg" data-setbg="img/property/slider/ps-5.jpg"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ps-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-12 p-0">
+                                    <div class="ps-item-inner large-item set-bg" data-setbg="img/property/slider/ps-1.jpg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-sm-6 p-0">
+                                    <div class="ps-item-inner set-bg" data-setbg="img/property/slider/ps-2.jpg"></div>
+                                </div>
+                                <div class="col-sm-6 p-0">
+                                    <div class="ps-item-inner set-bg" data-setbg="img/property/slider/ps-2.jpg"></div>
+                                </div>
+                                <div class="col-sm-6 p-0">
+                                    <div class="ps-item-inner set-bg" data-setbg="img/property/slider/ps-4.jpg"></div>
+                                </div>
+                                <div class="col-sm-6 p-0">
+                                    <div class="ps-item-inner set-bg" data-setbg="img/property/slider/ps-5.jpg"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Property Details Hero Section Begin -->
-
-    <!-- Property Details Section Begin -->
-    <section class="property-details-section spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9">
-                    <div class="pd-details-text">
-                        <div class="pd-details-social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-send"></i></a>
-                            <a href="#"><i class="fa fa-star"></i></a>
-                            <a href="#"><i class="fa fa-print"></i></a>
-                            <a href="#"><i class="fa fa-cloud-download"></i></a>
-                        </div>
-                        <div class="property-more-pic">
-                            <div class="product-pic-zoom">
-                                <img class="product-big-img" src="img/properties/property-details-b1.jpg" alt="">
+                <div class="col-lg-8">
+                    <div class="pd-text">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="pd-title">
+                                    <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                                    <div class="label">For rent</div>
+                                    <div class="pt-price">$ 289.0<span>/month</span></div>
+                                    <h3>Home in Merrick Way</h3>
+                                    <p><span class="icon_pin_alt"></span> 3 Middle Winchendon Rd, Rindge, NH 03463</p>
+                                </div>
                             </div>
-                            <div class="product-thumbs">
-                                <div class="product-thumbs-track ps-slider owl-carousel">
-                                    <div class="pt" data-imgbigurl="img/properties/property-details-b2.jpg"><img
-                                            src="img/properties/thumb-1.jpg" alt=""></div>
-                                    <div class="pt active" data-imgbigurl="img/properties/property-details-b1.jpg"><img
-                                            src="img/properties/thumb-2.jpg" alt=""></div>
-                                    <div class="pt" data-imgbigurl="img/properties/property-details-b3.jpg"><img
-                                            src="img/properties/thumb-3.jpg" alt=""></div>
-                                    <div class="pt" data-imgbigurl="img/properties/property-details-b4.jpg"><img
-                                            src="img/properties/thumb-4.jpg" alt=""></div>
-                                    <div class="pt" data-imgbigurl="img/properties/property-details-b5.jpg"><img
-                                            src="img/properties/thumb-5.jpg" alt=""></div>
+                            <div class="col-lg-6">
+                                <div class="pd-social">
+                                    <a href="#"><i class="fa fa-mail-forward"></i></a>
+                                    <a href="#"><i class="fa fa-send"></i></a>
+                                    <a href="#"><i class="fa fa-heart"></i></a>
+                                    <a href="#"><i class="fa fa-mail-forward"></i></a>
+                                    <a href="#"><i class="fa fa-cloud-download"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="pd-desc">
-                            <h4>Description</h4>
-                            <p>Learn how to improve your playing quality and even overall understanding of online gaming
-                                and how you perform while playing online. Gaming online is a huge business nowadays and
-                                that means that there are millions of people worldwide at online game sites all the
-                                time. Many are people just like you and me that like to play online and have fun doing
-                                it. Some of these people enjoy it so much, that they often do not even care about
-                                improving their skill and raising their chances of winning.</p>
-                        </div>
-                        <div class="pd-details-tab">
-                            <div class="tab-item">
-                                <ul class="nav" role="tablist">
-                                    <li>
-                                        <a class="active" data-toggle="tab" href="#tab-1" role="tab">Overview</a>
+                        <div class="pd-board">
+                            <div class="tab-board">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">Overview</a>
                                     </li>
-                                    <li>
-                                        <a data-toggle="tab" href="#tab-2" role="tab">Description</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Description</a>
                                     </li>
-                                    <li>
-                                        <a data-toggle="tab" href="#tab-3" role="tab">Amenities</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Amenities</a>
                                     </li>
-                                </ul>
-                            </div>
-                            <div class="tab-item-content">
+                                </ul><!-- Tab panes -->
                                 <div class="tab-content">
-                                    <div class="tab-pane fade-in active" id="tab-1" role="tabpanel">
-                                        <div class="property-more-table">
-                                            <table class="left-table">
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="pt-name">Price</td>
-                                                        <td class="p-value">$ 138,000</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pt-name">Property Type</td>
-                                                        <td class="p-value">Villa</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pt-name">Year Built</td>
-                                                        <td class="p-value">2016</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pt-name">Bathrooms</td>
-                                                        <td class="p-value">3</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pt-name">Rooms</td>
-                                                        <td class="p-value">12</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pt-name">Parking lots</td>
-                                                        <td class="p-value">3</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pt-name">Lot area</td>
-                                                        <td class="p-value">200 spft</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                            <table class="right-table">
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="pt-name">Agent</td>
-                                                        <td class="p-value">Adam Smith</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pt-name">Reference</td>
-                                                        <td class="p-value">#2019</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pt-name">Contract type</td>
-                                                        <td class="p-value">Sale</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pt-name">Beds</td>
-                                                        <td class="p-value">4</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pt-name">Garages</td>
-                                                        <td class="p-value">2</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pt-name">Home area</td>
-                                                        <td class="p-value">1200 sqft</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pt-name">Gara Size</td>
-                                                        <td class="p-value">200 sqft</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                                    <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                                        <div class="tab-details">
+                                            <ul class="left-table">
+                                                <li>
+                                                    <span class="type-name">Property Type</span>
+                                                    <span class="type-value">House</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Property ID</span>
+                                                    <span class="type-value">#219</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Price</span>
+                                                    <span class="type-value">$ 289.0/mounth</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Year Built</span>
+                                                    <span class="type-value">2019</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Contract type</span>
+                                                    <span class="type-value">Rent</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Agent</span>
+                                                    <span class="type-value">Ashton Kutcher</span>
+                                                </li>
+                                            </ul>
+                                            <ul class="right-table">
+                                                <li>
+                                                    <span class="type-name">Home Area</span>
+                                                    <span class="type-value">1200 sqft</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Rooms</span>
+                                                    <span class="type-value">9</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Bedrooms</span>
+                                                    <span class="type-value">4</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Bathrooms</span>
+                                                    <span class="type-value">3</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Garages</span>
+                                                    <span class="type-value">2</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Parking lots</span>
+                                                    <span class="type-value">2</span>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade" id="tab-2" role="tabpanel">
-                                        <div class="pd-table-desc">
-                                            <p>Learn how to improve your playing quality and even overall understanding
-                                                of online gaming and how you perform while playing online. Gaming online
-                                                is a huge business nowadays and that means that there are millions of
-                                                people worldwide at online game sites all the time. Many are people just
-                                                like you and me that like to play online and have fun doing it. Some of
-                                                these people enjoy it so much, that they often do not even care about
-                                                improving their skill and raising their chances of winning.</p>
-                                            <p>Learn how to improve your playing quality and even overall understanding
-                                                of online gaming and how you perform while playing online. Gaming online
-                                                is a huge business nowadays and that means that there are millions of
-                                                people worldwide at online game sites all the time. Many are people just
-                                                like you and me that like to play online and have fun doing it. Some of
-                                                these people enjoy it so much, that they often do not even care about
-                                                improving their skill and raising their chances of winning.</p>
+                                    <div class="tab-pane" id="tabs-2" role="tabpanel">
+                                        <div class="tab-desc">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolor itaque facere consequatur, dignissimos minus adipisci ipsam repudiandae nisi illum provident, natus quidem vero? Quaerat ducimus sequi praesentium commodi, consectetur corporis eos sit perspiciatis, quae sed officia error, iure quasi.</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolor itaque facere consequatur, dignissimos minus adipisci ipsam repudiandae nisi illum provident, natus quidem vero? Quaerat ducimus sequi praesentium commodi, consectetur corporis eos sit perspiciatis, quae sed officia error, iure quasi.</p>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade" id="tab-3" role="tabpanel">
-                                        <div class="pd-table-amenities">
-                                            <p>Learn how to improve your playing quality and even overall understanding
-                                                of online gaming and how you perform while playing online. Gaming online
-                                                is a huge business nowadays and that means that there are millions of
-                                                people worldwide at online game sites all the time. Many are people just
-                                                like you and me that like to play online and have fun doing it. Some of
-                                                these people enjoy it so much, that they often do not even care about
-                                                improving their skill and raising their chances of winning.</p>
-                                            <p>Learn how to improve your playing quality and even overall understanding
-                                                of online gaming and how you perform while playing online. Gaming online
-                                                is a huge business nowadays and that means that there are millions of
-                                                people worldwide at online game sites all the time. Many are people just
-                                                like you and me that like to play online and have fun doing it. Some of
-                                                these people enjoy it so much, that they often do not even care about
-                                                improving their skill and raising their chances of winning.</p>
+                                    <div class="tab-pane" id="tabs-3" role="tabpanel">
+                                        <div class="tab-details">
+                                            <ul class="left-table">
+                                                <li>
+                                                    <span class="type-name">Property Type</span>
+                                                    <span class="type-value">House</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Property ID</span>
+                                                    <span class="type-value">#219</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Price</span>
+                                                    <span class="type-value">$ 289.0/mounth</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Year Built</span>
+                                                    <span class="type-value">2019</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Contract type</span>
+                                                    <span class="type-value">Rent</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Agent</span>
+                                                    <span class="type-value">Ashton Kutcher</span>
+                                                </li>
+                                            </ul>
+                                            <ul class="right-table">
+                                                <li>
+                                                    <span class="type-name">Home Area</span>
+                                                    <span class="type-value">1200 sqft</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Rooms</span>
+                                                    <span class="type-value">9</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Bedrooms</span>
+                                                    <span class="type-value">4</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Bathrooms</span>
+                                                    <span class="type-value">3</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Garages</span>
+                                                    <span class="type-value">2</span>
+                                                </li>
+                                                <li>
+                                                    <span class="type-name">Parking lots</span>
+                                                    <span class="type-value">2</span>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="property-map">
-                            <h4>Map</h4>
-                            <div class="map-inside">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.5524090066037!2d-71.10245469994108!3d42.47980730490846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3748250c43a43%3A0xe1b9879a5e9b6657!2sWinter%20Street%20Public%20Parking%20Lot!5e0!3m2!1sen!2sbd!4v1577299251173!5m2!1sen!2sbd"
-                                    height="320" style="border:0;" allowfullscreen=""></iframe>
-                                <div class="icon">
-                                    <i class="fa fa-home"></i>
+                        <div class="pd-widget">
+                            <h4>Floor plans</h4>
+                            <img src="img/property/details/floor-plan.jpg" alt="">
+                        </div>
+                        <div class="pd-widget">
+                            <h4>Floor plans</h4>
+                            <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d735515.5813275519!2d-80.41163541934742!3d43.93644386501528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882a55bbf3de23d7%3A0x3ada5af229b47375!2sMono%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1583262687289!5m2!1sen!2sbd" height="350" style="border:0;" allowfullscreen=""></iframe>
+                            </div>
+                            <div class="map-location">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="ml-item">
+                                            <div class="ml-single-item">
+                                                <h6>Hospital <span>( <i class="fa fa-location-arrow"></i> 5 km )</span></h6>
+                                                <p>Portland Ave Rochester, NY 14621</p>
+                                            </div>
+                                            <div class="ml-single-item">
+                                                <h6>Schools <span>( <i class="fa fa-location-arrow"></i> 8 km )</span></h6>
+                                                <p>Cragin Elementary School</p>
+                                            </div>
+                                            <div class="ml-single-item">
+                                                <h6>Store <span>( <i class="fa fa-location-arrow"></i> 2 km )</span></h6>
+                                                <p>Exceptional Shoes & Clothing</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="ml-item">
+                                            <div class="ml-single-item">
+                                                <h6>Laundry <span>( <i class="fa fa-location-arrow"></i> 3 km )</span></h6>
+                                                <p>Besst at laundry</p>
+                                            </div>
+                                            <div class="ml-single-item">
+                                                <h6>Health <span>( <i class="fa fa-location-arrow"></i> 5 km )</span></h6>
+                                                <p>Boomerang Barber & Beauty</p>
+                                            </div>
+                                            <div class="ml-single-item">
+                                                <h6>Health <span>( <i class="fa fa-location-arrow"></i> 5 km )</span></h6>
+                                                <p>Boomerang Barber & Beauty</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="property-contactus">
-                            <h4>Contact Us</h4>
-                            <div class="row">
-                                <div class="col-lg-5">
-                                    <div class="agent-desc">
-                                        <img src="img/properties/agent-contact.jpg" alt="">
-                                        <div class="agent-title">
-                                            <h5>Adam Smith</h5>
-                                            <span>Saler Marketing</span>
-                                        </div>
-                                        <div class="agent-social">
+                        <div class="pd-widget">
+                            <h4>Agent</h4>
+                            <div class="pd-agent">
+                                <div class="agent-pic">
+                                    <img src="img/property/details/agent.jpg" alt="">
+                                </div>
+                                <div class="agent-text">
+                                    <div class="at-title">
+                                        <h6>Ashton Kutcher</h6>
+                                        <span>Founder & CEO</span>
+                                        <a href="#" class="primary-btn">VIew profile</a>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, eiusmod tempor incididunt</p>
+                                    <div class="at-option">
+                                        <div class="at-number">123-455-688</div>
+                                        <div class="at-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
                                             <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-envelope"></i></a>
+                                            <a href="#"><i class="fa fa-envelope-o"></i></a>
                                         </div>
-                                        <p>In today’s net-savvy world it has become common for any business to have a
-                                            website which they use mostly for advertising their products and services.
-                                        </p>
                                     </div>
-                                </div>
-                                <div class="col-lg-6 offset-lg-1">
-                                    <form action="#" class="agent-contact-form">
-                                        <input type="text" placeholder="Name*">
-                                        <input type="text" placeholder="Email">
-                                        <textarea placeholder="Messages"></textarea>
-                                        <button type="submit" class="site-btn">Send Message</button>
-                                    </form>
+
                                 </div>
                             </div>
+                        </div>
+                        <div class="pd-widget">
+                            <h4>02 reviews</h4>
+                            <div class="pd-review">
+                                <div class="pr-item">
+                                    <div class="pr-avatar">
+                                        <div class="pr-pic">
+                                            <img src="img/property/details/review/review-1.jpg" alt="">
+                                        </div>
+                                        <div class="pr-text">
+                                            <h6>Brandon Kelley</h6>
+                                            <span>15 Aug 2017</span>
+                                            <div class="pr-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam.</p>
+                                </div>
+                                <div class="pr-item">
+                                    <div class="pr-avatar">
+                                        <div class="pr-pic">
+                                            <img src="img/property/details/review/review-2.jpg" alt="">
+                                        </div>
+                                        <div class="pr-text">
+                                            <h6>Matthew Nelson</h6>
+                                            <span>15 Aug 2017</span>
+                                            <div class="pr-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pd-widget">
+                            <h4>YOur Rating</h4>
+                            <form action="#" class="review-form">
+                                <div class="group-input">
+                                    <input type="text" placeholder="Name">
+                                    <input type="text" placeholder="Email">
+                                    <input type="text" placeholder="Website">
+                                </div>
+                                <textarea placeholder="Messages"></textarea>
+                                <div class="rating">
+                                    <span>Your Rating:</span>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <button type="submit" class="site-btn">send messages</button>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="property-sidebar">
-                        <h4>Search Property</h4>
-                        <form action="#" class="sidebar-search">
-                            <div class="sidebar-btn">
-                                <div class="bt-item">
-                                    <input type="radio" name="s-type" id="st-buy" checked>
-                                    <label for="st-buy">Buy</label>
+                        <div class="single-sidebar">
+                            <div class="section-title sidebar-title">
+                                <h5>Top agent</h5>
+                            </div>
+                            <div class="top-agent">
+                                <div class="ta-item">
+                                    <div class="ta-pic set-bg" data-setbg="img/property/details/sidebar/ta-1.jpg"></div>
+                                    <div class="ta-text">
+                                        <h6><a href="#">Ashton Kutcher</a></h6>
+                                        <span>Team Leader</span>
+                                        <div class="ta-num">123-455-688</div>
+                                    </div>
                                 </div>
-                                <div class="bt-item">
-                                    <input type="radio" name="s-type" id="st-rent">
-                                    <label for="st-rent">Rent</label>
+                                <div class="ta-item">
+                                    <div class="ta-pic set-bg" data-setbg="img/property/details/sidebar/ta-2.jpg"></div>
+                                    <div class="ta-text">
+                                        <h6><a href="#">Ashton Kutcher</a></h6>
+                                        <span>Team Leader</span>
+                                        <div class="ta-num">123-455-688</div>
+                                    </div>
+                                </div>
+                                <div class="ta-item">
+                                    <div class="ta-pic set-bg" data-setbg="img/property/details/sidebar/ta-3.jpg"></div>
+                                    <div class="ta-text">
+                                        <h6><a href="#">Ashton Kutcher</a></h6>
+                                        <span>Team Leader</span>
+                                        <div class="ta-num">123-455-688</div>
+                                    </div>
                                 </div>
                             </div>
-                            <select>
-                                <option value="">Locations</option>
-                            </select>
-                            <select>
-                                <option value="">Status</option>
-                            </select>
-                            <select>
-                                <option value="">No of Bedroom</option>
-                            </select>
-                            <select>
-                                <option value="">No of Bathrooms</option>
-                            </select>
-                            <select>
-                                <option value="">No of Guest</option>
-                            </select>
-                            <div class="room-size-range">
-                                <div class="price-text">
-                                    <label for="roomsizeRangeP">Size:</label>
-                                    <input type="text" id="roomsizeRangeP" readonly>
-                                </div>
-                                <div id="roomsize-range-P" class="slider"></div>
+                        </div>
+                        <div class="single-sidebar slider-op">
+                            <div class="section-title sidebar-title">
+                                <h5>Featural categories</h5>
                             </div>
-                            <div class="price-range-wrap">
-                                <div class="price-text">
-                                    <label for="priceRangeP">Price:</label>
-                                    <input type="text" id="priceRangeP" readonly>
+                            <div class="sf-slider owl-carousel">
+                                <div class="sf-item set-bg" data-setbg="img/categories/cat-1.jpg">
+                                    <div class="sf-text">
+                                        <h5>House</h5>
+                                        <span>38 property</span>
+                                    </div>
                                 </div>
-                                <div id="price-range-P" class="slider"></div>
+                                <div class="sf-item set-bg" data-setbg="img/categories/cat-2.jpg">
+                                    <div class="sf-text">
+                                        <h5>Apartment</h5>
+                                        <span>238 property</span>
+                                    </div>
+                                </div>
+                                <div class="sf-item set-bg" data-setbg="img/categories/cat-3.jpg">
+                                    <div class="sf-text">
+                                        <h5>Villa</h5>
+                                        <span>230 property</span>
+                                    </div>
+                                </div>
+                                <div class="sf-item set-bg" data-setbg="img/categories/cat-4.jpg">
+                                    <div class="sf-text">
+                                        <h5>Restaurent</h5>
+                                        <span>38 property</span>
+                                    </div>
+                                </div>
                             </div>
-                            <button type="submit" class="search-btn">Search Property</button>
-                        </form>
-                        <div class="best-agents">
-                            <h4>Best Agents</h4>
-                            <a href="#" class="ba-item">
-                                <div class="ba-pic">
-                                    <img src="img/properties/best-agent-1.jpg" alt="">
+                        </div>
+                        <div class="single-sidebar">
+                            <div class="section-title sidebar-title">
+                                <h5>mortgage calculator</h5>
+                            </div>
+                            <form action="#" class="calculator-form">
+                                <div class="filter-input">
+                                    <p>Sale Price</p>
+                                    <input type="text" placeholder="$">
                                 </div>
-                                <div class="ba-text">
-                                    <h5>Lester Bradley</h5>
-                                    <span>Company Agents</span>
-                                    <p class="property-items">6 property </p>
+                                <div class="filter-input">
+                                    <p>Precent Down</p>
+                                    <input type="text" placeholder="$">
                                 </div>
-                            </a>
-                            <a href="#" class="ba-item">
-                                <div class="ba-pic">
-                                    <img src="img/properties/best-agent-2.jpg" alt="">
+                                <div class="filter-input">
+                                    <p>Term(year)</p>
+                                    <input type="text" placeholder="Year">
                                 </div>
-                                <div class="ba-text">
-                                    <h5>Janie Blair</h5>
-                                    <span>Company Agents</span>
-                                    <p class="property-items">6 property </p>
+                                <div class="filter-input">
+                                    <p>Interest Rate in %</p>
+                                    <input type="text" placeholder="%">
                                 </div>
-                            </a>
-                            <a href="#" class="ba-item">
-                                <div class="ba-pic">
-                                    <img src="img/properties/best-agent-3.jpg" alt="">
-                                </div>
-                                <div class="ba-text">
-                                    <h5>Sophia Cole</h5>
-                                    <span>Marketing & Ceo</span>
-                                    <p class="property-items">6 property </p>
-                                </div>
-                            </a>
+                                <button type="submit" class="site-btn">Calculate</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -504,102 +575,113 @@
     </section>
     <!-- Property Details Section End -->
 
-    <!-- Partner Carousel Section Begin -->
-    <div class="partner-section">
+    <!-- Contact Section Begin -->
+    <section class="contact-section">
         <div class="container">
-            <div class="partner-carousel owl-carousel">
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-1.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-2.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-3.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-4.png" alt="">
-                    </div>
-                </a>
-                <a href="#" class="partner-logo">
-                    <div class="partner-logo-tablecell">
-                        <img src="img/partner/partner-5.png" alt="">
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Partner Carousel Section End -->
-
-    <!-- Footer Section Begin -->
-    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
-        <div class="container">
-            <div class="footer-text">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="footer-logo">
-                            <div class="logo">
-                                <a href="#"><img src="img/footer-logo.png" alt=""></a>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <div class="ci-item">
+                            <div class="ci-icon">
+                                <i class="fa fa-map-marker"></i>
                             </div>
-                            <p>Subscribe our newsletter gor get notification about new updates.</p>
-                            <form action="#" class="newslatter-form">
-                                <input type="text" placeholder="Enter your email...">
-                                <button type="submit"><i class="fa fa-location-arrow"></i></button>
-                            </form>
+                            <div class="ci-text">
+                                <h5>Address</h5>
+                                <p>160 Pennsylvania Ave NW, Washington, Castle, PA 16101-5161</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 offset-lg-1">
-                        <div class="footer-widget">
-                            <h4>Property City</h4>
-                            <ul>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Florida</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">New York</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Washington</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Los Angeles</a></li>
-                            </ul>
-                            <ul>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">St Louis</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Jacksonville</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">San Jose</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">San Diego</a></li>
-                            </ul>
+                        <div class="ci-item">
+                            <div class="ci-icon">
+                                <i class="fa fa-mobile"></i>
+                            </div>
+                            <div class="ci-text">
+                                <h5>Phone</h5>
+                                <ul>
+                                    <li>125-711-811</li>
+                                    <li>125-668-886</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="footer-widget">
-                            <h4>Social</h4>
-                            <ul class="social">
-                                <li><i class="ti-facebook"></i> <a href="#">Facebook</a></li>
-                                <li><i class="ti-instagram"></i> <a href="#">Instagram</a></li>
-                                <li><i class="ti-twitter-alt"></i> <a href="#">Twitter</a></li>
-                                <li><i class="ti-google"></i> <a href="#">Google+</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="footer-widget">
-                            <h4>Contact Us</h4>
-                            <ul class="contact-option">
-                                <li><i class="fa fa-map-marker"></i> 16 Creek Ave. Farming, NY</li>
-                                <li><i class="fa fa-phone"></i> (+88) 666 121 4321</li>
-                                <li><i class="fa fa-envelope"></i> info.colorlib@gmail.com</li>
-                                <li><i class="fa fa-clock-o"></i> Mon - Sat, 08 AM - 06 PM</li>
-                            </ul>
+                        <div class="ci-item">
+                            <div class="ci-icon">
+                                <i class="fa fa-headphones"></i>
+                            </div>
+                            <div class="ci-text">
+                                <h5>Support</h5>
+                                <p>Support.aler@gmail.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="cs-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d735515.5813275519!2d-80.41163541934742!3d43.93644386501528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882a55bbf3de23d7%3A0x3ada5af229b47375!2sMono%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1583262687289!5m2!1sen!2sbd" height="450" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+        <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="fs-about">
+                        <div class="fs-logo">
+                            <a href="#">
+                                <img src="img/f-logo.png" alt="">
+                            </a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua ut aliquip ex ea</p>
+                        <div class="fs-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Help</h5>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Contact Support</a></li>
+                            <li><a href="#">Knowledgebase</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Links</h5>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Create Property</a></li>
+                            <li><a href="#">My Properties</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="fs-widget">
+                        <h5>Newsletter</h5>
+                        <p>Deserunt mollit anim id est laborum.</p>
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Email">
+                            <button type="submit" class="site-btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
             <div class="copyright-text">
-                <p><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></p>
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
         </div>
     </footer>
@@ -609,10 +691,13 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.richtext.min.js"></script>
+    <script src="js/image-uploader.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

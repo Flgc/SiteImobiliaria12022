@@ -1,30 +1,31 @@
 <%-- 
     Document   : header
-    Created on : 18 de jan de 2022, 17:13:00
-    Author     : fabio
+    Created on : 22 de jan de 2022, 21:02:37
+    Author     : fabio luis
 --%>
 
-<!DOCTYPE html>
+<!DOCTYPE jsp>
 <html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Azenta Template">
-    <meta name="keywords" content="Azenta, unica, creative, html">
+    <meta name="description" content="Aler Template">
+    <meta name="keywords" content="Aler, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
     <title>FLGC Imob | Vendas e Aluguel</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
@@ -36,146 +37,95 @@
     <div id="preloder">
         <div class="loader"></div>
     </div>
-    
-    <!-- Mobile  -->
 
-    <!-- Offcanvas Menu Section Begin -->
+    <!-- Offcanvas Menu Wrapper Begin -->
     <div class="offcanvas-menu-overlay"></div>
-    <div class="canvas-open">
-        <i class="icon_menu"></i>
-    </div>
     <div class="offcanvas-menu-wrapper">
         <div class="canvas-close">
-            <i class="icon_close"></i>
+            <span class="icon_close"></span>
         </div>
-        <div class="language-bar">
-            <div class="language-option">
-                <img src="img/flag-br.png" alt="">
-                <span>Brasil</span>
-                <i class="fa fa-angle-down"></i>
-                <div class="flag-dropdown">
-                    <ul>
-                        <li><a href="#">Brasil</a></li>
-                        <li><a href="#">Inglish</a></li>
-                        <li><a href="#">Spanish</a></li>                        
-                    </ul>
-                </div>
-            </div>
-            <div class="property-btn">
-                <a href="property.jsp" class="property-sub">Ver Imóveis</a>
-            </div>
+        <div class="logo">
+            <a href="./index.jsp">
+                <img src="img/logo.png" alt="">
+            </a>
         </div>
-        <nav class="main-menu">
+        <div id="mobile-menu-wrap"></div>
+        <div class="om-widget">
             <ul>
-                <li><a href="./index.jsp  ">Home</a></li>
-                <li><a href="./agents.jsp  ">Corretores</a></li>
-                <li><a href="./about-us.jsp  ">Sobre</a></li>
-                <li><a href="./contact.jsp  ">Contatos</a></li>
+                <li><i class="icon_mail_alt"></i> ml@fabiotecnico1.biz</li>
+                <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
             </ul>
-        </nav>
-        <div class="nav-logo-right">
-            <ul>
-                <li>
-                    <i class="fa fa-whatsapp"></i>
-                    <div class="info-text">
-                        <span>Telefone:</span>
-                        <p>(+21)97162-4270</p>
-                        <br>
-                    </div>
-                    <i class="icon_mail"></i>
-                    <div class="info-text">
-                        <span>Email:</span>
-                        <p>ml@fabiotecnico1.biz</p>
-                        <br>
-                    </div>                    
-                    <i class="icon_map"></i>
-                    <div class="info-text">
-                        <span>Endereço:</span>
-                        <p>Santa Cruz <span>RJ</span></p>                                        
-                    </div>                                        
-                </li>
-                <li>
-
-
-                </li>
-            </ul>
+            <a href="#" class="hw-btn">Submit property</a>
+        </div>
+        <div class="om-social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube-play"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
         </div>
     </div>
-    <!-- Offcanvas Menu Section End -->
-    
-    <!-- Desktop  -->
-    
+    <!-- Offcanvas Menu Wrapper End -->
+
     <!-- Header Section Begin -->
     <header class="header-section">
-        <div class="top-nav">
+        <div class="hs-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7">
-                        <nav class="main-menu">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="./index.jsp"><img src="img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="ht-widget">
                             <ul>
-                                <li class="active"><a href="./index.jsp  ">Home</a></li>
-                                <li><a href="./agents.jsp  ">Corretores</a></li>                                
-                                <li><a href="./about-us.jsp  ">Sobre</a></li>                                                                
-                                <li><a href="./contact.jsp  ">Contatos</a></li>
+                                <li><i class="icon_mail_alt"></i> ml@fabiotecnico1.biz</li>
+                                <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
+                            </ul>
+                            <a href="#" class="hw-btn">Submit property</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas-open">
+                    <span class="icon_menu"></span>
+                </div>
+            </div>
+        </div>
+        <div class="hs-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <nav class="nav-menu">
+                            <ul>
+                                <li class="active"><a href="./index.jsp">Home</a></li>
+                                <li><a href="#">Properties</a>
+                                    <ul class="dropdown">
+                                        <li><a href="./property.jsp">Property Grid</a></li>
+                                        <li><a href="./profile.jsp">Property List</a></li>
+                                        <li><a href="./property-details.jsp">Property Detail</a></li>
+                                        <li><a href="./property-comparison.jsp">Property Comperison</a></li>
+                                        <li><a href="./property-submit.jsp">Property Submit</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./agents.jsp">Agents</a></li>
+                                <li><a href="./about.jsp">About</a></li>
+                                <li><a href="./blog.jsp">Blog</a></li>
+                                <li><a href="./contact.jsp">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="top-right">
-                            <div class="language-option">
-                                <img src="img/flag-br.png" alt="">
-                                <span>Brasil</span>
-                                <i class="fa fa-angle-down"></i>
-                                <div class="flag-dropdown">
-                                    <ul>
-                                        <li><a href="#">Brasil</a></li>                                        
-                                        <li><a href="#">English</a></li>
-                                        <li><a href="#">Spanish</a></li>                                        
-                                    </ul>
-                                </div>
-                            </div>
-                            <a href="property.jsp" class="property-sub">Ver Imóveis</a>                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="nav-logo">
-            <div class="container">
-                <div class="row">
                     <div class="col-lg-3">
-                        <div class="logo">
-                            <a href="./index.jsp  "><img src="img/logo.png" alt=""></a>
-                        </div>
-                    </div>                    
-                    <div class="col-lg-9">
-                        <div class="nav-logo-right">
-                            <ul>
-                                <li>
-                                    <i class="fa fa-whatsapp"></i>
-                                    <div class="info-text">
-                                        <span>Telefone:</span>
-                                        <p>(+21)97162-4270</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="icon_map"></i>
-                                    <div class="info-text">
-                                    <span>Endereço:</span>
-                                    <p>Santa Cruz <span>RJ</span></p>                                        
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="icon_mail"></i>
-                                    <div class="info-text">
-                                        <span>Email:</span>
-                                        <p>ml@fabiotecnico1.biz</p>
-                                    </div>
-                                </li>
-                            </ul>
+                        <div class="hn-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    <!-- Header End -->
