@@ -53,12 +53,13 @@
         <div class="om-widget">
             <ul>
                 <li><i class="icon_mail_alt"></i> ml@fabiotecnico1.biz</li>
-                <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
+                <li><i class="fa fa-whatsapp"></i> (21) 97162-4270<br>
+                <i class="fa fa-mobile-phone"></i> (21) 0000-0000</li>
             </ul>
-            <a href="#" class="hw-btn">Submit property</a>
+            <a href="./property.jsp" class="hw-btn">Ver Imóveis</a>
         </div>
         <div class="om-social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a> 
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-youtube-play"></i></a>
             <a href="#"><i class="fa fa-instagram"></i></a>
@@ -80,10 +81,10 @@
                     <div class="col-lg-10">
                         <div class="ht-widget">
                             <ul>
-                                <li><i class="icon_mail_alt"></i> ml@fabiotecnico1.biz</li>
-                                <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
+                                <li><i class="icon_mail_alt"></i> suporte@fabiotecnico1.biz</li>
+                                <li><i class="fa fa-whatsapp"></i> (21) 97162-4270<span> (21) 0000-0000</span></li>
                             </ul>
-                            <a href="#" class="hw-btn">Submit property</a>
+                            <a href="./property.jsp" class="hw-btn">Ver Imóveis</a>
                         </div>
                     </div>
                 </div>
@@ -99,7 +100,7 @@
                         <nav class="nav-menu">
                             <ul>
                                 <li class="active"><a href="./index.jsp">Home</a></li>
-                                <li><a href="#">Properties</a>
+                                <li><a href="./property.jsp">Imóveis</a>
                                     <ul class="dropdown">
                                         <li><a href="./property.jsp">Property Grid</a></li>
                                         <li><a href="./profile.jsp">Property List</a></li>
@@ -108,10 +109,9 @@
                                         <li><a href="./property-submit.jsp">Property Submit</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./agents.jsp">Agents</a></li>
-                                <li><a href="./about.jsp">About</a></li>
-                                <li><a href="./blog.jsp">Blog</a></li>
-                                <li><a href="./contact.jsp">Contact</a></li>
+                                <li><a href="./agents.jsp">Corretores</a></li>
+                                <li><a href="./about.jsp">Sobre</a></li>                                
+                                <li><a href="./contact.jsp">Contatos</a></li>
                             </ul>
                         </nav>
                     </div>
