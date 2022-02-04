@@ -52,7 +52,7 @@
         <div id="mobile-menu-wrap"></div>
         <div class="om-widget">
             <ul>
-                <li><i class="icon_mail_alt"></i> ml@fabiotecnico1.biz</li>
+                <li><i class="icon_mail_alt"></i> suporte@fabiotecnico1.biz</li>
                 <li><i class="fa fa-whatsapp"></i> (21) 97162-4270<br>
                 <i class="fa fa-mobile-phone"></i> (21) 0000-0000</li>
             </ul>
@@ -100,15 +100,7 @@
                         <nav class="nav-menu">
                             <ul>
                                 <li class="active"><a href="./index.jsp">Home</a></li>
-                                <li><a href="./property.jsp">ImÃ³veis</a>
-                                    <ul class="dropdown">
-                                        <li><a href="./property.jsp">Property Grid</a></li>
-                                        <li><a href="./profile.jsp">Property List</a></li>
-                                        <li><a href="./property-details.jsp">Property Detail</a></li>
-                                        <li><a href="./property-comparison.jsp">Property Comperison</a></li>
-                                        <li><a href="./property-submit.jsp">Property Submit</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="./property.jsp">Imóveis</a> </li>
                                 <li><a href="./agents.jsp">Corretores</a></li>
                                 <li><a href="./about.jsp">Sobre</a></li>                                
                                 <li><a href="./contact.jsp">Contatos</a></li>

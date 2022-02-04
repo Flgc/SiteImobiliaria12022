@@ -63,13 +63,13 @@
                 </div>
             </div>
             <div class="property-btn">
-                <a href="property.jsp" class="property-sub">Ver Imóveis</a>
+                <a href="property.jsp" class="property-sub">Ver ImÃ³veis</a>
             </div>
         </div>
         <nav class="main-menu">
             <ul>
                 <li><a href="./index.jsp  ">Home</a></li>
-                <li><a href="./index.jsp  ">Imóveis</a></li>
+                <li><a href="./property.jsp  ">ImÃ³veis</a></li>
                 <li><a href="./agents.jsp  ">Corretores</a></li>
                 <li><a href="./about-us.jsp  ">Sobre</a></li>
                 <li><a href="./contact.jsp  ">Contatos</a></li>
@@ -87,12 +87,12 @@
                     <i class="icon_mail"></i>
                     <div class="info-text">
                         <span>Email:</span>
-                        <p>ml@fabiotecnico1.biz</p>
+                        <p>suporte@fabiotecnico1.biz</p>
                         <br>
                     </div>                    
                     <i class="icon_map"></i>
                     <div class="info-text">
-                        <span>Endereço:</span>
+                        <span>Endereï¿½o:</span>
                         <p>Santa Cruz <span>RJ</span></p>                                        
                     </div>                                        
                 </li>
@@ -113,8 +113,7 @@
                         <nav class="main-menu">
                             <ul>
                                 <li class="active"><a href="./index.jsp  ">Home</a></li>
-                                <li><a href="./index.jsp  ">Imóveis</a>
-                                </li>
+                                <li><a href="./property.jsp  ">ImÃ³veis</a></li>
                                 <li><a href="./agents.jsp  ">Corretores</a></li>                                
                                 <li><a href="./about-us.jsp  ">Sobre</a></li>                                                                
                                 <li><a href="./contact.jsp  ">Contatos</a></li>
@@ -135,7 +134,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <a href="property.jsp" class="property-sub">Ver Imóveis</a>                            
+                            <a href="property.jsp" class="property-sub">Ver Imï¿½veis</a>                            
                         </div>
                     </div>
                 </div>
@@ -163,7 +162,7 @@
                                 <li>
                                     <i class="icon_map"></i>
                                     <div class="info-text">
-                                    <span>Endereço:</span>
+                                    <span>EndereÃ§o:</span>
                                     <p>Santa Cruz <span>RJ</span></p>                                        
                                     </div>
                                 </li>
@@ -171,7 +170,7 @@
                                     <i class="icon_mail"></i>
                                     <div class="info-text">
                                         <span>Email:</span>
-                                        <p>ml@fabiotecnico1.biz</p>
+                                        <p>suporte@fabiotecnico1.biz</p>
                                     </div>
                                 </li>
                             </ul>
