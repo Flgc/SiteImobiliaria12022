@@ -12,7 +12,7 @@
                     <div class="fs-about">
                         <div class="fs-logo">
                             <a href="#">
-                                <img src="img/f-logo.png" alt="">
+                                <img src="img/logo.png" alt="">
                             </a>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -28,44 +28,50 @@
                 </div>
                 <div class="col-lg-2 col-sm-6">
                     <div class="fs-widget">
-                        <h5>Help</h5>
-                        <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Contact Support</a></li>
-                            <li><a href="#">Knowledgebase</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">FAQs</a></li>
-                        </ul>
+                            <h5>Bairros</h5>
+                            <ul>                                
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Itaguaí</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Santa Cruz</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Campo Grande</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Bangú</a></li>
+                            </ul>
+                            <ul>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Paciência</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Sepetiba</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Realengo</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Cósmo</a></li>
+                            </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-sm-6">
                     <div class="fs-widget">
                         <h5>Links</h5>
                         <ul>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Create Property</a></li>
-                            <li><a href="#">My Properties</a></li>
-                            <li><a href="#">Register</a></li>
-                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Contatos</a></li>
+                            <li><a href="#">Imóveis</a></li>
+                            <li><a href="#">Corretores</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Home</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="fs-widget">
-                        <h5>Newsletter</h5>
-                        <p>Deserunt mollit anim id est laborum.</p>
+                        <h5>Ofertas</h5>
+                        <p>Deseja Receber ofertas de Imóves</p>
                         <form action="#" class="subscribe-form">
                             <input type="text" placeholder="Email">
-                            <button type="submit" class="site-btn">Subscribe</button>
+                            <button type="submit" class="site-btn">Inscrever</button>
                         </form>
                     </div>
                 </div>
             </div>
+            
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             <div class="copyright-text">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                <!--<p> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>-->
             </div>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         </div>
     </footer>
     <!-- Footer Section End -->

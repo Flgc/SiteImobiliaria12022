@@ -138,7 +138,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <a href="property.jsp" class="property-sub">Ver Im�veis</a>                            
+                            <a href="property.jsp" class="property-sub">Ver Imóveis</a>                            
                         </div>
                     </div>
                 </div>

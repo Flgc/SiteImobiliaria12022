@@ -23,18 +23,18 @@
                     </div>
                     <div class="col-lg-3 offset-lg-1">
                         <div class="footer-widget">
-                            <h4>Property City</h4>
+                            <h4>Bairros</h4>
                             <ul>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Florida</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">New York</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Washington</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Los Angeles</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Itaguaí</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Santa Cruz</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Campo Grande</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Bangú</a></li>
                             </ul>
                             <ul>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">St Louis</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">Jacksonville</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">San Jose</a></li>
-                                <li><i class="fa fa-caret-right"></i> <a href="#">San Diego</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Paciência</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Sepetiba</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Realengo</a></li>
+                                <li><i class="fa fa-caret-right"></i> <a href="#">Cósmo</a></li>
                             </ul>
                         </div>
                     </div>
@@ -45,7 +45,6 @@
                                 <li><i class="ti-facebook"></i> <a href="#">Facebook</a></li>
                                 <li><i class="ti-instagram"></i> <a href="#">Instagram</a></li>
                                 <li><i class="ti-twitter-alt"></i> <a href="#">Twitter</a></li>
-                                <li><i class="ti-google"></i> <a href="#">Google+</a></li>
                             </ul>
                         </div>
                     </div>
@@ -63,9 +62,15 @@
                 </div>
             </div>
             <div class="copyright-text">
-                <p><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></p>
+                <p>
+                <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <!-- Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i
+                        class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+                </p>
             </div>
         </div>
     </footer>
