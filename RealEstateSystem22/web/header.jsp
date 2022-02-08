@@ -5,6 +5,8 @@
 --%>
 
 <!DOCTYPE jsp>
+<%@include  file="config.jsp"  %>
+
 <html lang="zxx">
 
 <head>
@@ -52,9 +54,10 @@
         <div id="mobile-menu-wrap"></div>
         <div class="om-widget">
             <ul>
-                <li><i class="icon_mail_alt"></i> suporte@fabiotecnico1.biz</li>
-                <li><i class="fa fa-whatsapp"></i> (21) 97162-4270<br>
-                <i class="fa fa-mobile-phone"></i> (21) 0000-0000</li>
+                <li><i class="icon_mail_alt"></i>  <%=email %></li> 
+                 <li><a class="text-dark" target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=<%=whatsappLink%>"> 
+                 <i class="fa fa-whatsapp"></i> <%=whatsapp%> </a> <br>
+                <i class="fa fa-mobile-phone"></i><%=fixphone%></li>
             </ul>
             <a href="./property.jsp" class="hw-btn">Ver Imóveis</a>
         </div>
@@ -81,8 +84,10 @@
                     <div class="col-lg-10">
                         <div class="ht-widget">
                             <ul>
-                                <li><i class="icon_mail_alt"></i> suporte@fabiotecnico1.biz</li>
-                                <li><i class="fa fa-whatsapp"></i> (21) 97162-4270<span> (21) 0000-0000</span></li>
+                                <li><i class="icon_mail_alt"></i><%=email %></li>
+                                <li><a class="text-dark" target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=<%=whatsappLink%>"> 
+                                        <i class="fa fa-whatsapp"></i> <%=whatsapp%> </a>
+                                        <span> <%=fixphone%></span></li>
                             </ul>
                             <a href="./property.jsp" class="hw-btn">Ver Imóveis</a>
                         </div>

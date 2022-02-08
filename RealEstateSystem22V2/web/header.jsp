@@ -5,6 +5,8 @@
 --%>
 
 <!DOCTYPE html>
+<%@include  file="config.jsp"  %>
+
 <html lang="zxx">
 
 <head>
@@ -78,16 +80,18 @@
         <div class="nav-logo-right">
             <ul>
                 <li>
-                    <i class="fa fa-whatsapp"></i>
+                    <!-- Mobile -->
+                    <a class="text-dark" target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=<%=whatsappLink%>">
+                    <i class="fa fa-whatsapp"></i></a>
                     <div class="info-text">
                         <span>Telefone:</span>
-                        <p>(+21)97162-4270</p>
+                        <p><a class="text-dark" target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=<%=whatsappLink%>"> <%=whatsapp%> </a></p>
                         <br>
                     </div>
                     <i class="icon_mail"></i>
                     <div class="info-text">
                         <span>Email:</span>
-                        <p>suporte@fabiotecnico1.biz</p>
+                        <p><%=email %></p>
                         <br>
                     </div>                    
                     <i class="icon_map"></i>
@@ -152,12 +156,14 @@
                     <div class="col-lg-9">
                         <div class="nav-logo-right">
                             <ul>
+                                <!-- DESKTOP -->
                                 <li>
-                                    <i class="fa fa-whatsapp"></i>
-                                    <div class="info-text">
-                                        <span>Telefone:</span>
-                                        <p>(+21)97162-4270</p>
-                                    </div>
+                                    <a class="text-dark" target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=<%=whatsappLink%>">
+                                        <i class="fa fa-whatsapp"></i></a>
+                                        <div class="info-text">
+                                            <span>Telefone:</span>
+                                            <a class="text-dark" target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=<%=whatsappLink%>"> <%=whatsapp%> </a>
+                                        </div>
                                 </li>
                                 <li>
                                     <i class="icon_map"></i>
@@ -170,7 +176,7 @@
                                     <i class="icon_mail"></i>
                                     <div class="info-text">
                                         <span>Email:</span>
-                                        <p>suporte@fabiotecnico1.biz</p>
+                                        <p><%=email %></p>
                                     </div>
                                 </li>
                             </ul>
@@ -178,6 +184,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
      </header>
 
