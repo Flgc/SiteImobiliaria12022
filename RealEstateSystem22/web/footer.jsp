@@ -3,6 +3,7 @@
     Created on : 7 de fev de 2022, 19:42:06
     Author     : fabio
 --%>
+<%@include  file="config.jsp"  %>
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
@@ -12,7 +13,7 @@
                     <div class="fs-about">
                         <div class="fs-logo">
                             <a href="#">
-                                <img src="img/logo.png" alt="">
+                                <img src="img/footer-logo-b-p.png" alt="">
                             </a>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -23,6 +24,7 @@
                             <a href="#"><i class="fa fa-youtube-play"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
                             <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            <a target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=<%=whatsappLink%>">  <i class="fa fa-whatsapp"></i> </a>
                         </div>
                     </div>
                 </div>

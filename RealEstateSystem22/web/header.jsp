@@ -119,6 +119,7 @@
                             <a href="#"><i class="fa fa-youtube-play"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
                             <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fa fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>

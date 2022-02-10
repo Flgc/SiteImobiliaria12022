@@ -15,10 +15,10 @@
                         <div class="col-lg-12">
                             <div class="hc-inner-text">
                                 <div class="hc-text">
-                                    <h4>Balaji Symphony</h4>
-                                    <p><span class="icon_pin_alt"></span> Panvel, Navi Mumbai</p>
-                                    <div class="label">For Rent</div>
-                                    <h5>$ 65.0<span>/month</span></h5>
+                                    <h4>Imóvel a Venda</h4>
+                                    <p><span class="icon_pin_alt"></span> Local do Imóvel</p>
+                                    <div class="label">Comprar</div>
+                                    <h5>R$ 500.000,00<span>/MÊS</span></h5>
                                 </div>
                                 <div class="hc-widget">
                                     <ul>

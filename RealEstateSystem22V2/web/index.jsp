@@ -14,11 +14,11 @@
                     <div class="row">
                         <div class="col-lg-8 offset-lg-2">
                             <div class="hero-text">
-                                <p class="room-location"><i class="icon_pin"></i> 9721 Glen Creek Ave. Ballston Spa, NY</p>
-                                <h2>Villa 9721 Glen Creek</h2>
+                                <p class="room-location"><i class="icon_pin"></i> Local do Imóvel</p>
+                                <h2>Imóvel a Venda</h2>
                                 <div class="room-price">
-                                    <span>Start Form:</span>
-                                    <p>$3.000.000</p>
+                                    <span>Comprar:</span>
+                                    <p>R$ 5.000.000</p>
                                 </div>
                                 <ul class="room-features">
                                     <li>

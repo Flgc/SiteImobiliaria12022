@@ -4,6 +4,8 @@
     Author     : fabio
 --%>
 
+<%@include  file="config.jsp"  %>
+
     <!-- Footer Section Begin -->
     <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
         <div class="container">
@@ -12,7 +14,7 @@
                     <div class="col-lg-3">
                         <div class="footer-logo">
                             <div class="logo">
-                                <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                                <a href="#"><img src="img/footer-logo-b-p.png" alt=""></a>
                             </div>
                             <p>Subscribe our newsletter gor get notification about new updates.</p>
                             <form action="#" class="newslatter-form">
@@ -44,7 +46,7 @@
                             <ul class="social">
                                 <li><i class="ti-facebook"></i> <a href="#">Facebook</a></li>
                                 <li><i class="ti-instagram"></i> <a href="#">Instagram</a></li>
-                                <li><i class="ti-twitter-alt"></i> <a href="#">Twitter</a></li>
+                                <li><i class="ti-twitter-alt"></i> <a href="#">Twitter</a></li>                                
                             </ul>
                         </div>
                     </div>
@@ -52,10 +54,13 @@
                         <div class="footer-widget">
                             <h4>Contact Us</h4>
                             <ul class="contact-option">
-                                <li><i class="fa fa-map-marker"></i> 16 Creek Ave. Farming, NY</li>
-                                <li><i class="fa fa-phone"></i> (+88) 666 121 4321</li>
-                                <li><i class="fa fa-envelope"></i> info.colorlib@gmail.com</li>
+                                <li><i class="fa fa-map-marker"></i> Santa Cruz - RJ</li>
+                                <!-- <li><i class="fa fa-phone"></i> (+88) 666 121 4321</li> -->
+                                <li><i class="fa fa-whatsapp"></i> <a target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=<%=whatsappLink%>"> <%=whatsapp%> </a></li>
+                                <li><i class="fa fa-envelope"></i> <%=email %></li>
                                 <li><i class="fa fa-clock-o"></i> Mon - Sat, 08 AM - 06 PM</li>
+                                <i class="fa fa-whatsapp"></i>
+                                
                             </ul>
                         </div>
                     </div>
