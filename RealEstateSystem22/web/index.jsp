@@ -15,14 +15,14 @@
                         <div class="col-lg-12">
                             <div class="hc-inner-text">
                                 <div class="hc-text">
-                                    <h4>Imóvel a Venda</h4>
+                                    <h4>CASA COM 5 QUARTOS</h4>
                                     <p><span class="icon_pin_alt"></span> Local do Imóvel</p>
                                     <div class="label">Comprar</div>
                                     <h5>R$ 500.000,00<span>/MÊS</span></h5>
                                 </div>
                                 <div class="hc-widget">
                                     <ul>
-                                        <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                        <li><i class="fa fa-object-group"></i> 380M²</li>
                                         <li><i class="fa fa-bathtub"></i> 03</li>
                                         <li><i class="fa fa-bed"></i> 05</li>
                                         <li><i class="fa fa-automobile"></i> 01</li>
@@ -32,21 +32,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg">
+                 <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="hc-inner-text">
                                 <div class="hc-text">
-                                    <h4>Balaji Symphony</h4>
-                                    <p><span class="icon_pin_alt"></span> Panvel, Navi Mumbai</p>
-                                    <div class="label">For Rent</div>
-                                    <h5>$ 65.0<span>/month</span></h5>
+                                    <h4>CASA COM 3 QUARTOS</h4>
+                                    <p><span class="icon_pin_alt"></span> Local do Imóvel</p>
+                                    <div class="label">Comprar</div>
+                                    <h5>R$ 250.000,00<span>/MÊS</span></h5>
                                 </div>
                                 <div class="hc-widget">
                                     <ul>
-                                        <li><i class="fa fa-object-group"></i> 2, 283</li>
-                                        <li><i class="fa fa-bathtub"></i> 03</li>
-                                        <li><i class="fa fa-bed"></i> 05</li>
+                                        <li><i class="fa fa-object-group"></i> 280M²</li>
+                                        <li><i class="fa fa-bathtub"></i> 02</li>
+                                        <li><i class="fa fa-bed"></i> 03</li>
                                         <li><i class="fa fa-automobile"></i> 01</li>
                                     </ul>
                                 </div>
@@ -59,14 +59,14 @@
                         <div class="col-lg-12">
                             <div class="hc-inner-text">
                                 <div class="hc-text">
-                                    <h4>Balaji Symphony</h4>
-                                    <p><span class="icon_pin_alt"></span> Panvel, Navi Mumbai</p>
-                                    <div class="label">For Rent</div>
-                                    <h5>$ 65.0<span>/month</span></h5>
+                                    <h4>APARTAMENTO COM 3 QUARTOS</h4>
+                                    <p><span class="icon_pin_alt"></span> Local do Imóvel</p>
+                                    <div class="label">Alugar</div>
+                                    <h5>R$ 1000,00<span>/MÊS</span></h5>
                                 </div>
                                 <div class="hc-widget">
                                     <ul>
-                                        <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                        <li><i class="fa fa-object-group"></i> 380M²</li>
                                         <li><i class="fa fa-bathtub"></i> 03</li>
                                         <li><i class="fa fa-bed"></i> 05</li>
                                         <li><i class="fa fa-automobile"></i> 01</li>
@@ -87,20 +87,20 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="section-title">
-                        <h4>Where would you rather live?</h4>
+                        <h4>Onde você deseja morar?</h4>
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="change-btn">
                         <div class="cb-item">
                             <label for="cb-rent" class="active">
-                                For Rent
+                                Compra
                                 <input type="radio" id="cb-rent">
                             </label>
                         </div>
                         <div class="cb-item">
                             <label for="cb-sale">
-                                For Sale
+                                Aluguel
                                 <input type="radio" id="cb-sale">
                             </label>
                         </div>
@@ -110,38 +110,53 @@
             <div class="search-form-content">
                 <form action="#" class="filter-form">
                     <select class="sm-width">
-                        <option value="">Chose The City</option>
+                        <option value="">Cidade</option>
                     </select>
                     <select class="sm-width">
-                        <option value="">Location</option>
+                        <option value="">Bairro</option>
                     </select>
                     <select class="sm-width">
-                        <option value="">Property Status</option>
+                        <option value="">Imóvel Status</option>
+                        <option value="Novo">Novo</option>
+                        <option value="Usado">Usado</option>
+                        <option value="Planta">Planta</option>
                     </select>
                     <select class="sm-width">
-                        <option value="">Property Type</option>
+                        <option value="">Tipo do Imóvel</option>
                     </select>
                     <select class="sm-width">
-                        <option value="">No Of Bedrooms</option>
+                        <option value="">Nº Quartos</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="mais">Mais de 5</option>
                     </select>
                     <select class="sm-width">
-                        <option value="">No Of Bathrooms</option>
+                        <option value="">Vagas de Garagem</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="mais">Mais de 5</option>                        
                     </select>
                     <div class="room-size-range-wrap sm-width">
                         <div class="price-text">
-                            <label for="roomsizeRange">Size:</label>
+                            <label for="roomsizeRange">Tamanho m²:</label>
                             <input type="text" id="roomsizeRange" readonly>
                         </div>
                         <div id="roomsize-range" class="slider"></div>
                     </div>
                     <div class="price-range-wrap sm-width">
                         <div class="price-text">
-                            <label for="priceRange">Price:</label>
+                            <label for="priceRange">Valor</label>
                             <input type="text" id="priceRange" readonly>
                         </div>
                         <div id="price-range" class="slider"></div>
                     </div>
-                    <button type="button" class="search-btn sm-width">Search</button>
+                    <button type="button" class="search-btn sm-width">BuscarProcura</button>
                 </form>
             </div>
             <div class="more-option">

@@ -15,23 +15,23 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="hero-text">
                                 <p class="room-location"><i class="icon_pin"></i> Local do Imóvel</p>
-                                <h2>Imóvel a Venda</h2>
+                                <h2>CASA COM 5 QUARTOS</h2>
                                 <div class="room-price">
                                     <span>Comprar:</span>
-                                    <p>R$ 5.000.000</p>
+                                    <p>R$ 500.000,00</p>
                                 </div>
                                 <ul class="room-features">
                                     <li>
                                         <i class="fa fa-arrows"></i>
-                                        <p>5201 sqft</p>
+                                        <p>380M²</p>
                                     </li>
                                     <li>
                                         <i class="fa fa-bed"></i>
-                                        <p>8 Bed Room</p>
+                                        <p>5 Bed Room</p>
                                     </li>
                                     <li>
                                         <i class="fa fa-bath"></i>
-                                        <p>7 Baths Bed</p>
+                                        <p>3 Baths Bed</p>
                                     </li>
                                     <li>
                                         <i class="fa fa-car"></i>
@@ -49,23 +49,23 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="hero-text">
                                 <p class="room-location"><i class="icon_pin"></i> 9721 Glen Creek Ave. Ballston Spa, NY</p>
-                                <h2>Villa 9721 Glen Creek</h2>
+                                <h2>CASA COM 3 QUARTOS</h2>
                                 <div class="room-price">
-                                    <span>Start Form:</span>
-                                    <p>$3.000.000</p>
+                                    <span>Comprar:</span>
+                                    <p>R$ 250.000.000</p>
                                 </div>
                                 <ul class="room-features">
                                     <li>
                                         <i class="fa fa-arrows"></i>
-                                        <p>5201 sqft</p>
+                                        <p>280M²</p>
                                     </li>
                                     <li>
                                         <i class="fa fa-bed"></i>
-                                        <p>8 Bed Room</p>
+                                        <p>2 Bed Room</p>
                                     </li>
                                     <li>
                                         <i class="fa fa-bath"></i>
-                                        <p>7 Baths Bed</p>
+                                        <p>2 Baths Bed</p>
                                     </li>
                                     <li>
                                         <i class="fa fa-car"></i>
@@ -83,23 +83,23 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="hero-text">
                                 <p class="room-location"><i class="icon_pin"></i> 9721 Glen Creek Ave. Ballston Spa, NY</p>
-                                <h2>Villa 9721 Glen Creek</h2>
+                                <h2>APARTAMENTO COM 3 QUARTOS</h2>
                                 <div class="room-price">
-                                    <span>Start Form:</span>
-                                    <p>$3.000.000</p>
+                                    <span>Alugar:</span>
+                                    <p>R$ 1000.000</p>
                                 </div>
                                 <ul class="room-features">
                                     <li>
                                         <i class="fa fa-arrows"></i>
-                                        <p>5201 sqft</p>
+                                        <p>180M²</p>
                                     </li>
                                     <li>
                                         <i class="fa fa-bed"></i>
-                                        <p>8 Bed Room</p>
+                                        <p>3 Bed Room</p>
                                     </li>
                                     <li>
                                         <i class="fa fa-bath"></i>
-                                        <p>7 Baths Bed</p>
+                                        <p>2 Baths Bed</p>
                                     </li>
                                     <li>
                                         <i class="fa fa-car"></i>
@@ -136,47 +136,62 @@
                     <div class="search-form-text">
                         <div class="search-text">
                             <i class="fa fa-search"></i>
-                            Find Your Home
+                            Onde você deseja morar?
                         </div>
                         <div class="home-text">
                             <i class="fa fa-home"></i>
-                            House For Sell
+                            Compra ou Alugel
                         </div>
                     </div>
                     <form action="#" class="filter-form">
                         <div class="first-row">
                             <select>
-                                <option value="">Villa & Pool</option>
+                                <option value="">Status do Imóvel</option>
+                                <option value="Novo">Novo</option>
+                                <option value="Usado">Usado</option>
+                                <option value="Planta">Planta</option>
                             </select>
                             <select>
-                                <option value="">Title</option>
+                                <option value="">Bairro</option>
                             </select>
                             <select>
-                                <option value="">Ani City</option>
+                                <option value="">Cidade</option>
                             </select>
                             <select>
-                                <option value="">Any Bithrooms</option>
+                                <option value="">Vaga de Garagem</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="mais">Mais de 5</option>                                
                             </select>
                         </div>
                         <div class="second-row">
                             <select>
-                                <option value="">Any Bedrooms</option>
+                                <option value="">Nº Quartos</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="mais">Mais de 5</option>
                             </select>
                             <div class="price-range-wrap">
                                 <div class="price-text">
-                                    <label for="priceRange">Price:</label>
+                                    <label for="priceRange">Valor:</label>
                                     <input type="text" id="priceRange" readonly>
                                 </div>
                                 <div id="price-range" class="slider"></div>
                             </div>
                             <div class="room-size-range">
                                 <div class="price-text">
-                                    <label for="roomsizeRange">Size:</label>
+                                    <label for="roomsizeRange">Tamanho m²:</label>
                                     <input type="text" id="roomsizeRange" readonly>
                                 </div>
                                 <div id="roomsize-range" class="slider"></div>
                             </div>
-                            <button type="button" class="search-btn">Search</button>
+                            <button type="button" class="search-btn">Buscar</button>
                         </div>
                     </form>
                 </div>
